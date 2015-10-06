@@ -68,7 +68,7 @@ public class ServicesController {
     public ArrayList<Sucursales> getBranches() throws Exception {
         
         EntityManager em = getEntityManager();
-        Query q = em.createNamedQuery("Contactos.findAll");
+        Query q = em.createNamedQuery("Sucursales.findAll");
         ArrayList<Sucursales> result = new ArrayList<>(Arrays.asList((Sucursales[]) q.getResultList().toArray(new Sucursales[0])));
         em.close();
         

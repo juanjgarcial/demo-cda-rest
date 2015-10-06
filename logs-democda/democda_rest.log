@@ -264,3 +264,249 @@
 2015-10-06 16:26:14 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
 2015-10-06 16:26:14 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[],"status":{"code":200,"status":"OK"}}
 2015-10-06 16:26:14 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 16:38:53 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 16:38:53 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 16:38:53 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 16:38:53 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[],"status":{"code":200,"status":"OK"}}
+2015-10-06 16:38:53 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 16:38:55 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 16:38:55 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 16:38:55 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 16:38:55 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[],"status":{"code":200,"status":"OK"}}
+2015-10-06 16:38:55 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 16:38:57 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 16:38:57 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 16:38:57 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 16:38:57 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[],"status":{"code":200,"status":"OK"}}
+2015-10-06 16:38:57 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 16:39:10 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 16:39:10 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 16:39:10 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 16:39:10 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[],"status":{"code":200,"status":"OK"}}
+2015-10-06 16:39:10 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 16:39:52 INFO  LogsPropertiesConfigurator:63 - Propiedades de Log4j configuradas con éxito
+2015-10-06 16:39:52 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 16:39:54 DEBUG DBConnection:45 - DB Connection: jdbc:mysql://localhost:8889/democda - USR: root PASS: root - DRIVER: com.mysql.jdbc.Driver
+2015-10-06 16:39:55 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 16:39:56 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 16:39:56 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:17:13 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:17:13 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:17:13 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:17:13 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:17:13 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:17:18 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:17:18 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:17:18 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:17:18 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:17:18 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:17:50 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:17:50 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:17:50 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:17:50 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:17:50 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:18:28 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:18:28 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:18:28 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:18:28 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:18:28 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:18:30 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:18:30 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:18:30 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:18:30 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:18:30 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:19:30 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:19:30 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:19:30 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:19:30 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:19:30 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:19:33 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:19:33 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:19:33 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:19:33 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:19:33 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:26:14 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:26:14 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:26:14 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:26:14 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:26:14 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:26:23 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:26:23 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:26:23 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:26:23 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:26:23 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:29:38 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:29:38 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:29:38 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:29:38 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:29:38 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:29:45 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:29:45 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:29:45 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:29:45 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:29:45 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:30:49 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:30:49 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:30:49 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:30:49 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:30:49 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:30:53 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:30:53 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:30:53 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:30:53 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:30:53 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:31:08 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:31:08 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:31:08 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:31:08 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:31:08 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:31:11 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:31:11 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:31:11 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:31:11 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:31:11 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:31:40 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:31:40 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:31:40 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:31:40 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:31:40 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:31:49 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:31:49 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:31:49 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:31:49 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:31:49 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:34:00 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:34:00 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:34:00 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:34:00 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:34:00 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:34:03 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:34:03 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:34:03 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:34:03 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:34:03 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:35:04 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:35:04 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:35:04 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:35:04 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:35:04 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:35:07 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:35:07 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:35:07 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:35:07 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:35:07 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:36:18 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:36:18 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:36:18 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:36:18 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:36:18 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:36:24 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:36:24 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:36:24 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:36:24 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:36:24 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:37:13 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:37:13 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:37:13 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:37:13 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:37:13 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:37:15 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:37:15 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:37:15 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:37:15 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:37:15 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:38:10 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:38:10 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:38:10 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:38:10 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:38:10 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:38:13 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:38:13 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:38:13 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:38:13 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:38:13 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:38:56 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:38:56 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:38:56 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:38:56 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:38:56 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:41:06 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:41:06 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:41:06 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:41:06 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:41:06 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:41:15 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:41:15 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:41:15 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:41:15 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:41:15 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:43:43 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:43:43 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:43:43 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:43:43 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:43:43 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:43:48 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:43:48 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:43:48 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:43:48 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:43:48 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:45:00 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:45:00 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:45:00 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:45:00 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:45:00 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:45:11 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:45:11 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:45:11 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:45:11 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:45:11 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:47:47 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:47:47 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:47:47 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:47:47 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:47:47 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:47:51 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:47:51 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:47:51 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:47:51 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:47:51 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:48:08 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:48:08 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:48:08 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:48:08 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:48:08 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:48:12 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:48:12 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:48:12 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:48:12 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:48:12 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:48:29 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:48:29 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:48:29 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:48:29 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:48:29 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:48:32 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:48:32 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:48:32 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:48:32 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:48:32 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:51:41 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:51:41 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:51:41 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:51:41 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:51:41 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:51:44 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:51:44 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:51:44 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:51:44 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:51:44 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-06 17:52:25 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
+2015-10-06 17:52:25 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
+2015-10-06 17:52:25 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
+2015-10-06 17:52:25 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:52:25 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-06 17:52:29 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-06 17:52:29 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
+2015-10-06 17:52:29 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
+2015-10-06 17:52:29 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-06 17:52:29 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
