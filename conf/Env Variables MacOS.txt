@@ -1,0 +1,87 @@
+cat << EOF | sudo tee /Library/LaunchDaemons/setenv.DEMOCDE_PROPERTIES_FILE_PATH.plist
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+  <plist version="1.0">
+  <dict>
+  <key>Label</key>
+  <string>setenv.DEMOCDE_PROPERTIES_FILE_PATH</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/launchctl</string>
+    <string>setenv</string>
+    <string>DEMOCDE_PROPERTIES_FILE_PATH</string>
+    <string>/Users/sgbpty-002/Proyectos/Integracion/DemoCDA/conf/conf.properties</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>ServiceIPC</key>
+  <false/>
+</dict>
+</plist>
+EOF
+
+cat << EOF | sudo tee /Library/LaunchDaemons/setenv.DEMOCDE_MESSAGES_FILE_PATH.plist
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+  <plist version="1.0">
+  <dict>
+  <key>Label</key>
+  <string>setenv.DEMOCDE_MESSAGES_FILE_PATH</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/launchctl</string>
+    <string>setenv</string>
+    <string>DEMOCDE_MESSAGES_FILE_PATH</string>
+    <string>/Users/sgbpty-002/Proyectos/Integracion/DemoCDA/conf/msg.properties</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>ServiceIPC</key>
+  <false/>
+</dict>
+</plist>
+EOF
+
+cat << EOF | sudo tee /Library/LaunchDaemons/setenv.DEMOCDE_LOGS_PROPERTIES_FILE_PATH.plist
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+  <plist version="1.0">
+  <dict>
+  <key>Label</key>
+  <string>setenv.DEMOCDE_LOGS_PROPERTIES_FILE_PATH</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/launchctl</string>
+    <string>setenv</string>
+    <string>DEMOCDE_LOGS_PROPERTIES_FILE_PATH</string>
+    <string>/Users/sgbpty-002/Proyectos/Integracion/DemoCDA/src/main/resources/log4j.properties</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>ServiceIPC</key>
+  <false/>
+</dict>
+</plist>
+EOF
+
+cat << EOF | sudo tee /Library/LaunchDaemons/setenv.DEMOCDE_LOGS_PATH.plist
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+  <plist version="1.0">
+  <dict>
+  <key>Label</key>
+  <string>setenv.DEMOCDE_LOGS_PATH</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/launchctl</string>
+    <string>setenv</string>
+    <string>DEMOCDE_LOGS_PATH</string>
+    <string>/Users/sgbpty-002/Proyectos/Integracion/DemoCDA/logs-democda/eventos_plus_rest.log</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>ServiceIPC</key>
+  <false/>
+</dict>
+</plist>
+EOF
