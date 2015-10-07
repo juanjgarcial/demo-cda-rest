@@ -4,12 +4,16 @@ import com.synergygb.panama.democda.models.db.Contactos;
 import com.synergygb.panama.democda.models.db.EnlacesInteres;
 import com.synergygb.panama.democda.models.db.Noticias;
 import com.synergygb.panama.democda.models.db.Publicidad;
+import com.synergygb.panama.democda.models.db.RedesSociales;
 import com.synergygb.panama.democda.models.db.Sucursales;
 import com.synergygb.panama.democda.services.controllers.ServicesController;
 import com.synergygb.panama.democda.services.models.ServiceResponse;
+import com.synergygb.panama.democda.services.models.Social;
 import com.synergygb.panama.democda.services.models.WebServiceStatus;
 import com.synergygb.panama.democda.utils.JSONUtility;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Date;
 import org.apache.log4j.Logger;
 
 /**
@@ -56,6 +60,20 @@ public class ServicesHandler {
             LOGGER.error("Error al Obtener la informacion de contacto", ex);
             response.setStatus(WebServiceStatus.failResponseByDefault(ex));
         }
+        
+        
+        ArrayList<Social> socialNetwors = new ArrayList<>();
+        
+        for (RedesSociales red : response.getContact().getRedesSocialesCollection()) {
+            Social s = new Social();
+            s.setName(red.getRTitle());
+            s.setType(red.getRTipo().getTrDescription());
+            s.setUrl(red.getRLink());
+            socialNetwors.add(s);
+        }
+        
+        response.getContact().setRedesSocialesCollection(null);
+        response.setSocial(socialNetwors);
         
         LOGGER.info("Finalizando handler de Obtención de informacion de contacto");
         return JSONUtility.jsonFromObject(response);

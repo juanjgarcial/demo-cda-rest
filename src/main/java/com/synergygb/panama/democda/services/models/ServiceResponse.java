@@ -16,6 +16,7 @@ public class ServiceResponse implements Serializable {
     
     private ArrayList<Publicidad> ads;
     private Contactos contact;
+    private ArrayList<Social> social;
     private ArrayList<Noticias> news;
     private ArrayList<Sucursales> branches;
     private ArrayList<EnlacesInteres> sites;
@@ -25,9 +26,10 @@ public class ServiceResponse implements Serializable {
     public ServiceResponse() {
     }
 
-    public ServiceResponse(ArrayList<Publicidad> ads, Contactos contact, ArrayList<Noticias> news, ArrayList<Sucursales> branches, ArrayList<EnlacesInteres> sites, WebServiceStatus status) {
+    public ServiceResponse(ArrayList<Publicidad> ads, Contactos contact, ArrayList<Social> social, ArrayList<Noticias> news, ArrayList<Sucursales> branches, ArrayList<EnlacesInteres> sites, WebServiceStatus status) {
         this.ads = ads;
         this.contact = contact;
+        this.social = social;
         this.news = news;
         this.branches = branches;
         this.sites = sites;
@@ -82,10 +84,16 @@ public class ServiceResponse implements Serializable {
         this.status = status;
     }
 
+    public ArrayList<Social> getSocial() {
+        return social;
+    }
+
+    public void setSocial(ArrayList<Social> social) {
+        this.social = social;
+    }
+
     @Override
     public String toString() {
-        return "ServiceResponse{" + "ads=" + ads + ", contact=" + contact + ", news=" + news + ", branches=" + branches + ", sites=" + sites + ", status=" + status + '}';
+        return "ServiceResponse{" + "ads=" + ads + ", contact=" + contact + ", social=" + social + ", news=" + news + ", branches=" + branches + ", sites=" + sites + ", status=" + status + '}';
     }
-    
-    
 }
