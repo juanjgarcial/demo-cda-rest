@@ -27,6 +27,7 @@ import javax.validation.constraints.Size;
     @NamedQuery(name = "PreguntasFrecuentes.findAll", query = "SELECT p FROM PreguntasFrecuentes p"),
     @NamedQuery(name = "PreguntasFrecuentes.findByPfId", query = "SELECT p FROM PreguntasFrecuentes p WHERE p.pfId = :pfId"),
     @NamedQuery(name = "PreguntasFrecuentes.findByPfQuestion", query = "SELECT p FROM PreguntasFrecuentes p WHERE p.pfQuestion = :pfQuestion"),
+    @NamedQuery(name = "PreguntasFrecuentes.findByPfActive", query = "SELECT p FROM PreguntasFrecuentes p WHERE p.pfActive = :pfActive"),
     @NamedQuery(name = "PreguntasFrecuentes.findByPfuserCreate", query = "SELECT p FROM PreguntasFrecuentes p WHERE p.pfuserCreate = :pfuserCreate"),
     @NamedQuery(name = "PreguntasFrecuentes.findByPfuserUpdate", query = "SELECT p FROM PreguntasFrecuentes p WHERE p.pfuserUpdate = :pfuserUpdate"),
     @NamedQuery(name = "PreguntasFrecuentes.findByPfdateCreate", query = "SELECT p FROM PreguntasFrecuentes p WHERE p.pfdateCreate = :pfdateCreate"),
@@ -49,6 +50,10 @@ public class PreguntasFrecuentes implements Serializable {
     @Size(min = 1, max = 65535)
     @Column(name = "pf_answer")
     private String pfAnswer;
+    @Basic(optional = false)
+    @NotNull
+    @Column(name = "pf_active")
+    private boolean pfActive;
     @Basic(optional = false)
     @NotNull
     @Size(min = 1, max = 20)
@@ -77,10 +82,11 @@ public class PreguntasFrecuentes implements Serializable {
         this.pfId = pfId;
     }
 
-    public PreguntasFrecuentes(Integer pfId, String pfQuestion, String pfAnswer, String pfuserCreate, String pfuserUpdate, Date pfdateCreate, Date pfdateUpdate) {
+    public PreguntasFrecuentes(Integer pfId, String pfQuestion, String pfAnswer, boolean pfActive, String pfuserCreate, String pfuserUpdate, Date pfdateCreate, Date pfdateUpdate) {
         this.pfId = pfId;
         this.pfQuestion = pfQuestion;
         this.pfAnswer = pfAnswer;
+        this.pfActive = pfActive;
         this.pfuserCreate = pfuserCreate;
         this.pfuserUpdate = pfuserUpdate;
         this.pfdateCreate = pfdateCreate;
@@ -109,6 +115,14 @@ public class PreguntasFrecuentes implements Serializable {
 
     public void setPfAnswer(String pfAnswer) {
         this.pfAnswer = pfAnswer;
+    }
+
+    public boolean getPfActive() {
+        return pfActive;
+    }
+
+    public void setPfActive(boolean pfActive) {
+        this.pfActive = pfActive;
     }
 
     public String getPfuserCreate() {

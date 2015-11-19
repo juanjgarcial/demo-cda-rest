@@ -32,6 +32,8 @@ import javax.validation.constraints.Size;
     @NamedQuery(name = "Sucursales.findByShoursUntil", query = "SELECT s FROM Sucursales s WHERE s.shoursUntil = :shoursUntil"),
     @NamedQuery(name = "Sucursales.findByStypeEstablishment", query = "SELECT s FROM Sucursales s WHERE s.stypeEstablishment = :stypeEstablishment"),
     @NamedQuery(name = "Sucursales.findBySName", query = "SELECT s FROM Sucursales s WHERE s.sName = :sName"),
+    @NamedQuery(name = "Sucursales.findBySPicture", query = "SELECT s FROM Sucursales s WHERE s.sPicture = :sPicture"),
+    @NamedQuery(name = "Sucursales.findByStypeHours", query = "SELECT s FROM Sucursales s WHERE s.stypeHours = :stypeHours"),
     @NamedQuery(name = "Sucursales.findBySuserCreate", query = "SELECT s FROM Sucursales s WHERE s.suserCreate = :suserCreate"),
     @NamedQuery(name = "Sucursales.findBySuserUpdate", query = "SELECT s FROM Sucursales s WHERE s.suserUpdate = :suserUpdate"),
     @NamedQuery(name = "Sucursales.findBySdateCreate", query = "SELECT s FROM Sucursales s WHERE s.sdateCreate = :sdateCreate"),
@@ -58,14 +60,14 @@ public class Sucursales implements Serializable {
     private float sLength;
     @Basic(optional = false)
     @NotNull
+    @Size(min = 1, max = 50)
     @Column(name = "s_hoursFrom")
-    @Temporal(TemporalType.TIME)
-    private Date shoursFrom;
+    private String shoursFrom;
     @Basic(optional = false)
     @NotNull
+    @Size(min = 1, max = 50)
     @Column(name = "s_hoursUntil")
-    @Temporal(TemporalType.TIME)
-    private Date shoursUntil;
+    private String shoursUntil;
     @Basic(optional = false)
     @NotNull
     @Size(min = 1, max = 60)
@@ -76,6 +78,16 @@ public class Sucursales implements Serializable {
     @Size(min = 1, max = 50)
     @Column(name = "s_name")
     private String sName;
+    @Basic(optional = false)
+    @NotNull
+    @Size(min = 1, max = 200)
+    @Column(name = "s_picture")
+    private String sPicture;
+    @Basic(optional = false)
+    @NotNull
+    @Size(min = 1, max = 60)
+    @Column(name = "s_typeHours")
+    private String stypeHours;
     @Basic(optional = false)
     @NotNull
     @Size(min = 1, max = 20)
@@ -104,7 +116,7 @@ public class Sucursales implements Serializable {
         this.sId = sId;
     }
 
-    public Sucursales(Integer sId, String sAddress, float sLatitude, float sLength, Date shoursFrom, Date shoursUntil, String stypeEstablishment, String sName, String suserCreate, String suserUpdate, Date sdateCreate, Date sdateUpdate) {
+    public Sucursales(Integer sId, String sAddress, float sLatitude, float sLength, String shoursFrom, String shoursUntil, String stypeEstablishment, String sName, String sPicture, String stypeHours, String suserCreate, String suserUpdate, Date sdateCreate, Date sdateUpdate) {
         this.sId = sId;
         this.sAddress = sAddress;
         this.sLatitude = sLatitude;
@@ -113,6 +125,8 @@ public class Sucursales implements Serializable {
         this.shoursUntil = shoursUntil;
         this.stypeEstablishment = stypeEstablishment;
         this.sName = sName;
+        this.sPicture = sPicture;
+        this.stypeHours = stypeHours;
         this.suserCreate = suserCreate;
         this.suserUpdate = suserUpdate;
         this.sdateCreate = sdateCreate;
@@ -151,19 +165,19 @@ public class Sucursales implements Serializable {
         this.sLength = sLength;
     }
 
-    public Date getShoursFrom() {
+    public String getShoursFrom() {
         return shoursFrom;
     }
 
-    public void setShoursFrom(Date shoursFrom) {
+    public void setShoursFrom(String shoursFrom) {
         this.shoursFrom = shoursFrom;
     }
 
-    public Date getShoursUntil() {
+    public String getShoursUntil() {
         return shoursUntil;
     }
 
-    public void setShoursUntil(Date shoursUntil) {
+    public void setShoursUntil(String shoursUntil) {
         this.shoursUntil = shoursUntil;
     }
 
@@ -181,6 +195,22 @@ public class Sucursales implements Serializable {
 
     public void setSName(String sName) {
         this.sName = sName;
+    }
+
+    public String getSPicture() {
+        return sPicture;
+    }
+
+    public void setSPicture(String sPicture) {
+        this.sPicture = sPicture;
+    }
+
+    public String getStypeHours() {
+        return stypeHours;
+    }
+
+    public void setStypeHours(String stypeHours) {
+        this.stypeHours = stypeHours;
     }
 
     public String getSuserCreate() {

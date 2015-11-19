@@ -1,149 +1,26 @@
-2015-10-07 07:22:05 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
-2015-10-07 07:22:05 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
-2015-10-07 07:22:05 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
-2015-10-07 07:22:05 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
-2015-10-07 07:22:05 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
-2015-10-07 07:22:15 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
-2015-10-07 07:22:15 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
-2015-10-07 07:22:15 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
-2015-10-07 07:22:15 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
-2015-10-07 07:22:15 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
-2015-10-07 07:24:52 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
-2015-10-07 07:24:52 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
-2015-10-07 07:24:52 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
-2015-10-07 07:24:52 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
-2015-10-07 07:24:52 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
-2015-10-07 07:24:56 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
-2015-10-07 07:24:56 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
-2015-10-07 07:24:56 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
-2015-10-07 07:24:56 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
-2015-10-07 07:24:56 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
-2015-10-07 07:26:15 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
-2015-10-07 07:26:16 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
-2015-10-07 07:26:16 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
-2015-10-07 07:26:16 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
-2015-10-07 07:26:16 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
-2015-10-07 07:26:19 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
-2015-10-07 07:26:19 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
-2015-10-07 07:26:19 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
-2015-10-07 07:26:19 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
-2015-10-07 07:26:19 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
-2015-10-07 07:34:56 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
-2015-10-07 07:34:56 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
-2015-10-07 07:34:56 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
-2015-10-07 07:34:56 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
-2015-10-07 07:34:56 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
-2015-10-07 07:34:59 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
-2015-10-07 07:34:59 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
-2015-10-07 07:34:59 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
-2015-10-07 07:34:59 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
-2015-10-07 07:34:59 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
-2015-10-07 07:36:12 INFO  DemoResources:26 - Iniciando servicio de obtener todos la publicidad
-2015-10-07 07:36:12 INFO  ServicesHandler:24 - Iniciando handler de Obtención de Publicidad
-2015-10-07 07:36:12 INFO  ServicesHandler:39 - Finalizando handler de Obtención de publicidad
-2015-10-07 07:36:12 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"pub1","pPicture":"http://www.africanfoods.com.ng/wp-content/uploads/2015/04/advertise-banner.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":2,"pText":"pub2","pPicture":"http://volcanohost.biz/wp-content/uploads/2012/03/YourAdHere.png","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"pId":3,"pText":"pub3","pPicture":"http://winwingrocers.com/images/ad%20banner.jpg","pActive":true,"puserCreate":"","puserUpdate":"","pdateCreate":"Oct 6, 2015 12:00:00 AM","pdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
-2015-10-07 07:36:12 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
-2015-10-07 07:36:21 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
-2015-10-07 07:36:21 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
-2015-10-07 07:36:21 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
-2015-10-07 07:36:21 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
-2015-10-07 07:36:21 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
-2015-10-07 07:38:55 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
-2015-10-07 07:38:55 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Sucursales
-2015-10-07 07:38:55 INFO  ServicesHandler:120 - Finalizando handler de Obtención de Sucursales
-2015-10-07 07:38:55 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"sId":2,"sAddress":"El Cangrejo, Panama","sLatitude":8.98932,"sLength":-79.5262,"shoursFrom":"Jan 1, 1970 6:00:00 AM","shoursUntil":"Jan 1, 1970 5:00:00 PM","stypeEstablishment":"Cajero","sName":"Cajero de la esquina","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 7, 2015 12:00:00 AM","sdateUpdate":"Oct 7, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
-2015-10-07 07:38:55 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
-2015-10-07 07:41:43 INFO  DemoResources:49 - Iniciando servicio de obtener información de contacto
-2015-10-07 07:41:43 INFO  ServicesHandler:44 - Iniciando handler de Obtención de Contacto
-2015-10-07 07:41:43 INFO  ServicesHandler:60 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 07:41:43 DEBUG DemoResources:56 - JSON RESPONSE -  CONTACT INFO = {"contact":{"cId":1,"cEmail":"info@cajadeahorro.com","cPhone":"+5071234567","cAddress":"Via España, Edif. Caja de Ahorro.","caddressLatitude":0.0,"caddressLength":0.0,"cuserCreate":"","cuserUpdate":"","cdateCreate":"Oct 7, 2015 12:00:00 AM","cdateUpdate":"Oct 7, 2015 12:00:00 AM","redesSocialesCollection":[]},"status":{"code":200,"status":"OK"}}
-2015-10-07 07:41:43 INFO  DemoResources:61 - Finalizado servicio de obtener información de contacto
-2015-10-07 07:44:33 INFO  DemoResources:49 - Iniciando servicio de obtener información de contacto
-2015-10-07 07:44:33 INFO  ServicesHandler:44 - Iniciando handler de Obtención de Contacto
-2015-10-07 07:44:33 INFO  ServicesHandler:60 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 07:44:39 INFO  DemoResources:49 - Iniciando servicio de obtener información de contacto
-2015-10-07 07:44:39 INFO  ServicesHandler:44 - Iniciando handler de Obtención de Contacto
-2015-10-07 07:44:39 INFO  ServicesHandler:60 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 07:45:38 INFO  DemoResources:49 - Iniciando servicio de obtener información de contacto
-2015-10-07 07:45:38 INFO  ServicesHandler:44 - Iniciando handler de Obtención de Contacto
-2015-10-07 07:45:38 INFO  ServicesHandler:60 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 07:48:24 INFO  LogsPropertiesConfigurator:63 - Propiedades de Log4j configuradas con éxito
-2015-10-07 07:48:24 INFO  ServicesHandler:44 - Iniciando handler de Obtención de Contacto
-2015-10-07 07:48:42 DEBUG DBConnection:45 - DB Connection: jdbc:mysql://localhost:8889/democda - USR: root PASS: root - DRIVER: com.mysql.jdbc.Driver
-2015-10-07 07:49:15 INFO  ServicesHandler:60 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 07:53:55 INFO  DemoResources:49 - Iniciando servicio de obtener información de contacto
-2015-10-07 07:53:55 INFO  ServicesHandler:44 - Iniciando handler de Obtención de Contacto
-2015-10-07 07:53:55 INFO  ServicesHandler:60 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 07:55:00 INFO  LogsPropertiesConfigurator:63 - Propiedades de Log4j configuradas con éxito
-2015-10-07 07:55:00 INFO  ServicesHandler:44 - Iniciando handler de Obtención de Contacto
-2015-10-07 07:55:02 DEBUG DBConnection:45 - DB Connection: jdbc:mysql://localhost:8889/democda - USR: root PASS: root - DRIVER: com.mysql.jdbc.Driver
-2015-10-07 07:55:03 INFO  ServicesHandler:60 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 07:57:27 INFO  LogsPropertiesConfigurator:63 - Propiedades de Log4j configuradas con éxito
-2015-10-07 07:57:27 INFO  ServicesHandler:47 - Iniciando handler de Obtención de Contacto
-2015-10-07 07:57:28 DEBUG DBConnection:45 - DB Connection: jdbc:mysql://localhost:8889/democda - USR: root PASS: root - DRIVER: com.mysql.jdbc.Driver
-2015-10-07 07:57:29 INFO  ServicesHandler:63 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 07:57:59 INFO  LogsPropertiesConfigurator:63 - Propiedades de Log4j configuradas con éxito
-2015-10-07 07:57:59 INFO  ServicesHandler:47 - Iniciando handler de Obtención de Contacto
-2015-10-07 07:58:00 DEBUG DBConnection:45 - DB Connection: jdbc:mysql://localhost:8889/democda - USR: root PASS: root - DRIVER: com.mysql.jdbc.Driver
-2015-10-07 07:58:02 INFO  ServicesHandler:63 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 07:58:45 INFO  LogsPropertiesConfigurator:63 - Propiedades de Log4j configuradas con éxito
-2015-10-07 07:58:45 INFO  ServicesHandler:47 - Iniciando handler de Obtención de Contacto
-2015-10-07 07:58:47 DEBUG DBConnection:45 - DB Connection: jdbc:mysql://localhost:8889/democda - USR: root PASS: root - DRIVER: com.mysql.jdbc.Driver
-2015-10-07 07:58:48 INFO  ServicesHandler:63 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 07:59:11 INFO  LogsPropertiesConfigurator:63 - Propiedades de Log4j configuradas con éxito
-2015-10-07 07:59:11 INFO  ServicesHandler:47 - Iniciando handler de Obtención de Contacto
-2015-10-07 07:59:13 DEBUG DBConnection:45 - DB Connection: jdbc:mysql://localhost:8889/democda - USR: root PASS: root - DRIVER: com.mysql.jdbc.Driver
-2015-10-07 07:59:14 INFO  ServicesHandler:63 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 07:59:51 INFO  DemoResources:49 - Iniciando servicio de obtener información de contacto
-2015-10-07 07:59:51 INFO  ServicesHandler:47 - Iniciando handler de Obtención de Contacto
-2015-10-07 07:59:51 INFO  ServicesHandler:63 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 08:00:32 INFO  LogsPropertiesConfigurator:63 - Propiedades de Log4j configuradas con éxito
-2015-10-07 08:00:32 INFO  ServicesHandler:44 - Iniciando handler de Obtención de Contacto
-2015-10-07 08:00:33 DEBUG DBConnection:45 - DB Connection: jdbc:mysql://localhost:8889/democda - USR: root PASS: root - DRIVER: com.mysql.jdbc.Driver
-2015-10-07 08:00:34 INFO  ServicesHandler:63 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 08:00:55 INFO  LogsPropertiesConfigurator:63 - Propiedades de Log4j configuradas con éxito
-2015-10-07 08:00:55 INFO  ServicesHandler:44 - Iniciando handler de Obtención de Contacto
-2015-10-07 08:00:57 DEBUG DBConnection:45 - DB Connection: jdbc:mysql://localhost:8889/democda - USR: root PASS: root - DRIVER: com.mysql.jdbc.Driver
-2015-10-07 08:01:18 INFO  ServicesHandler:63 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 08:01:50 INFO  LogsPropertiesConfigurator:63 - Propiedades de Log4j configuradas con éxito
-2015-10-07 08:01:50 INFO  ServicesHandler:45 - Iniciando handler de Obtención de Contacto
-2015-10-07 08:01:52 DEBUG DBConnection:45 - DB Connection: jdbc:mysql://localhost:8889/democda - USR: root PASS: root - DRIVER: com.mysql.jdbc.Driver
-2015-10-07 08:01:53 INFO  ServicesHandler:64 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 08:03:28 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
-2015-10-07 08:03:28 INFO  ServicesHandler:109 - Iniciando handler de Obtención de Sucursales
-2015-10-07 08:03:28 INFO  ServicesHandler:124 - Finalizando handler de Obtención de Sucursales
-2015-10-07 08:03:28 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"sId":2,"sAddress":"El Cangrejo, Panama","sLatitude":8.98932,"sLength":-79.5262,"shoursFrom":"Jan 1, 1970 6:00:00 AM","shoursUntil":"Jan 1, 1970 5:00:00 PM","stypeEstablishment":"Cajero","sName":"Cajero de la esquina","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 7, 2015 12:00:00 AM","sdateUpdate":"Oct 7, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
-2015-10-07 08:03:28 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
-2015-10-07 08:06:52 INFO  LogsPropertiesConfigurator:63 - Propiedades de Log4j configuradas con éxito
-2015-10-07 08:06:52 INFO  ServicesHandler:45 - Iniciando handler de Obtención de Contacto
-2015-10-07 08:06:53 DEBUG DBConnection:45 - DB Connection: jdbc:mysql://localhost:8889/democda - USR: root PASS: root - DRIVER: com.mysql.jdbc.Driver
-2015-10-07 08:06:54 INFO  ServicesHandler:64 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 08:07:45 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
-2015-10-07 08:07:45 INFO  ServicesHandler:109 - Iniciando handler de Obtención de Sucursales
-2015-10-07 08:07:45 INFO  ServicesHandler:124 - Finalizando handler de Obtención de Sucursales
-2015-10-07 08:08:39 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Via Argentina","sLatitude":8.99031,"sLength":-79.5219,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 2:00:00 PM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 6, 2015 12:00:00 AM"},{"sId":2,"sAddress":"El Cangrejo, Panama","sLatitude":8.98932,"sLength":-79.5262,"shoursFrom":"Jan 1, 1970 6:00:00 AM","shoursUntil":"Jan 1, 1970 5:00:00 PM","stypeEstablishment":"Cajero","sName":"Cajero de la esquina","suserCreate":"","suserUpdate":"","sdateCreate":"Oct 7, 2015 12:00:00 AM","sdateUpdate":"Oct 7, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
-2015-10-07 08:08:39 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
-2015-10-07 08:08:44 INFO  DemoResources:49 - Iniciando servicio de obtener información de contacto
-2015-10-07 08:08:44 INFO  ServicesHandler:45 - Iniciando handler de Obtención de Contacto
-2015-10-07 08:08:44 INFO  ServicesHandler:64 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 08:09:46 INFO  DemoResources:49 - Iniciando servicio de obtener información de contacto
-2015-10-07 08:09:46 INFO  ServicesHandler:45 - Iniciando handler de Obtención de Contacto
-2015-10-07 08:09:46 INFO  ServicesHandler:64 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 08:13:40 INFO  LogsPropertiesConfigurator:63 - Propiedades de Log4j configuradas con éxito
-2015-10-07 08:13:40 INFO  ServicesHandler:46 - Iniciando handler de Obtención de Contacto
-2015-10-07 08:13:41 DEBUG DBConnection:45 - DB Connection: jdbc:mysql://localhost:8889/democda - USR: root PASS: root - DRIVER: com.mysql.jdbc.Driver
-2015-10-07 08:13:42 INFO  ServicesHandler:67 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 08:56:27 INFO  LogsPropertiesConfigurator:63 - Propiedades de Log4j configuradas con éxito
-2015-10-07 08:56:27 INFO  ServicesHandler:48 - Iniciando handler de Obtención de Contacto
-2015-10-07 08:56:31 DEBUG DBConnection:45 - DB Connection: jdbc:mysql://localhost:8889/democda - USR: root PASS: root - DRIVER: com.mysql.jdbc.Driver
-2015-10-07 08:57:13 INFO  LogsPropertiesConfigurator:63 - Propiedades de Log4j configuradas con éxito
-2015-10-07 08:57:13 INFO  ServicesHandler:48 - Iniciando handler de Obtención de Contacto
-2015-10-07 08:57:15 DEBUG DBConnection:45 - DB Connection: jdbc:mysql://localhost:8889/democda - USR: root PASS: root - DRIVER: com.mysql.jdbc.Driver
-2015-10-07 08:57:16 INFO  ServicesHandler:78 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 08:57:50 DEBUG DemoResources:56 - JSON RESPONSE -  CONTACT INFO = {"contact":{"cId":2,"cEmail":"info@cajadeahorros.com","cPhone":"+5071234567","cAddress":"Via España, Edif. Caja de Ahorros","caddressLatitude":8.98932,"caddressLength":-79.5262,"cuserCreate":"","cuserUpdate":"","cdateCreate":"Oct 6, 2015 12:00:00 AM","cdateUpdate":"Oct 6, 2015 12:00:00 AM"},"social":[{"type":"Facebook","name":"Facebook CDA","url":"https://www.facebook.com/cajadeahorrospa"}],"status":{"code":200,"status":"OK"}}
-2015-10-07 08:57:50 INFO  DemoResources:61 - Finalizado servicio de obtener información de contacto
-2015-10-07 09:01:15 INFO  DemoResources:49 - Iniciando servicio de obtener información de contacto
-2015-10-07 09:01:15 INFO  ServicesHandler:48 - Iniciando handler de Obtención de Contacto
-2015-10-07 09:01:15 INFO  ServicesHandler:78 - Finalizando handler de Obtención de informacion de contacto
-2015-10-07 09:01:15 DEBUG DemoResources:56 - JSON RESPONSE -  CONTACT INFO = {"contact":{"cId":2,"cEmail":"info@cajadeahorros.com","cPhone":"+5071234567","cAddress":"Via España, Edif. Caja de Ahorros","caddressLatitude":8.98932,"caddressLength":-79.5262,"cuserCreate":"","cuserUpdate":"","cdateCreate":"Oct 6, 2015 12:00:00 AM","cdateUpdate":"Oct 6, 2015 12:00:00 AM"},"social":[{"type":"Facebook","name":"Facebook CDA","url":"https://www.facebook.com/cajadeahorrospa"},{"type":"Twitter","name":"@CajaDeAhorrosPA","url":"https://twitter.com/cajadeahorrospa"}],"status":{"code":200,"status":"OK"}}
-2015-10-07 09:01:15 INFO  DemoResources:61 - Finalizado servicio de obtener información de contacto
+2015-10-14 16:54:49 INFO  LogsPropertiesConfigurator:63 - Propiedades de Log4j configuradas con éxito
+2015-10-14 16:54:49 INFO  ServicesHandler:28 - Iniciando handler de Obtención de Publicidad
+2015-10-14 16:54:51 DEBUG DBConnection:45 - DB Connection: jdbc:mysql://localhost:8889/democda - USR: root PASS: root - DRIVER: com.mysql.jdbc.Driver
+2015-10-14 16:54:53 INFO  ServicesHandler:43 - Finalizando handler de Obtención de publicidad
+2015-10-14 16:54:53 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":3,"pText":"Sucursal casa matriz","pPicture":"http://localhost:8888/BancaRFP/web/uploads/publicidad/publicidad_3.jpg","pActive":true,"puserCreate":"vivi","puserUpdate":"gian","pdateCreate":"Oct 7, 2015 12:00:00 AM","pdateUpdate":"Oct 8, 2015 12:00:00 AM"},{"pId":4,"pText":"Tornero juvenil","pPicture":"http://localhost:8888/BancaRFP/web/uploads/publicidad/publicidad_4.jpeg","pActive":true,"puserCreate":"vivi","puserUpdate":"gian","pdateCreate":"Oct 7, 2015 12:00:00 AM","pdateUpdate":"Oct 8, 2015 12:00:00 AM"},{"pId":7,"pText":"Zambo","pPicture":"http://localhost:8888/BancaRFP/web/uploads/publicidad/publicidad_7.jpg","pActive":true,"puserCreate":"vivi","puserUpdate":"gian","pdateCreate":"Oct 7, 2015 12:00:00 AM","pdateUpdate":"Oct 8, 2015 12:00:00 AM"},{"pId":8,"pText":"Préstamo de auto","pPicture":"http://localhost:8888/BancaRFP/web/uploads/publicidad/publicidad_8.jpeg","pActive":true,"puserCreate":"vivi","puserUpdate":"vivi","pdateCreate":"Oct 8, 2015 12:00:00 AM","pdateUpdate":"Oct 8, 2015 12:00:00 AM"},{"pId":9,"pText":"Caja de Ahorros","pPicture":"http://localhost:8888/BancaRFP/web/uploads/publicidad/publicidad_9.jpeg","pActive":true,"puserCreate":"vivi","puserUpdate":"vivi","pdateCreate":"Oct 8, 2015 12:00:00 AM","pdateUpdate":"Oct 8, 2015 12:00:00 AM"},{"pId":10,"pText":"Innovación Caja de Ahorro","pPicture":"http://localhost:8888/BancaRFP/web/uploads/publicidad/publicidad_10.jpeg","pActive":true,"puserCreate":"vivi","puserUpdate":"vivi","pdateCreate":"Oct 8, 2015 12:00:00 AM","pdateUpdate":"Oct 8, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-14 16:54:53 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
+2015-10-14 16:55:09 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
+2015-10-14 16:55:09 INFO  ServicesHandler:127 - Iniciando handler de Obtención de Sucursales
+2015-10-14 16:55:09 INFO  ServicesHandler:142 - Finalizando handler de Obtención de Sucursales
+2015-10-14 16:55:09 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"branches":[{"sId":1,"sAddress":"Centro Comercial Las Colinas, Paraiso","sLatitude":9.07421,"sLength":-79.5043,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 3:00:00 AM","stypeEstablishment":"Sucursal","sName":"San Miguelito","suserCreate":"andry","suserUpdate":"pepe","sdateCreate":"Oct 6, 2015 12:00:00 AM","sdateUpdate":"Oct 7, 2015 12:00:00 AM"},{"sId":2,"sAddress":"Vía España y calle Thais de Pons","sLatitude":8.99028,"sLength":-79.522,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 3:30:00 AM","stypeEstablishment":"Sucursal","sName":"Casa Matriz","suserCreate":"andry","suserUpdate":"andry","sdateCreate":"Oct 7, 2015 12:00:00 AM","sdateUpdate":"Oct 7, 2015 12:00:00 AM"},{"sId":3,"sAddress":"Calle 4ta, Río Abajo, Edif. Beverly Hill Plaza","sLatitude":9.01132,"sLength":-79.5029,"shoursFrom":"Jan 1, 1970 8:30:00 AM","shoursUntil":"Jan 1, 1970 3:30:00 AM","stypeEstablishment":"ATM","sName":"Río Abajo","suserCreate":"andry","suserUpdate":"pepe","sdateCreate":"Oct 7, 2015 12:00:00 AM","sdateUpdate":"Oct 8, 2015 12:00:00 AM"},{"sId":4,"sAddress":"Calle 50 final, al lado de CIRSA - Frente a Blockbuster","sLatitude":8.99187,"sLength":-79.5102,"shoursFrom":"Jan 1, 1970 8:00:00 AM","shoursUntil":"Jan 1, 1970 3:00:00 AM","stypeEstablishment":"Sucursal","sName":"San Francisco","suserCreate":"andry","suserUpdate":"andry","sdateCreate":"Oct 7, 2015 12:00:00 AM","sdateUpdate":"Oct 7, 2015 12:00:00 AM"},{"sId":5,"sAddress":"Ave. Manuel Espinosa Batista, frente al Campus de la Universidad de Panamá","sLatitude":8.99094,"sLength":-79.5004,"shoursFrom":"Jan 1, 1970 1:00:00 AM","shoursUntil":"Jan 1, 1970 12:00:00 PM","stypeEstablishment":"ATM","sName":"Farma Plus+ Universidad","suserCreate":"andry","suserUpdate":"andry","sdateCreate":"Oct 7, 2015 12:00:00 AM","sdateUpdate":"Oct 7, 2015 12:00:00 AM"},{"sId":6,"sAddress":"Ave. Central y Calle 17","sLatitude":8.95738,"sLength":-79.5408,"shoursFrom":"Jan 1, 1970 1:00:00 AM","shoursUntil":"Jan 1, 1970 12:00:00 PM","stypeEstablishment":"ATM","sName":"Sucursal Séptima Central","suserCreate":"andry","suserUpdate":"andry","sdateCreate":"Oct 8, 2015 12:00:00 AM","sdateUpdate":"Oct 8, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-14 16:55:09 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-10-14 16:55:20 INFO  DemoResources:49 - Iniciando servicio de obtener información de contacto
+2015-10-14 16:55:20 INFO  ServicesHandler:48 - Iniciando handler de Obtención de Contacto
+2015-10-14 16:55:20 INFO  ServicesHandler:82 - Finalizando handler de Obtención de informacion de contacto
+2015-10-14 16:55:20 DEBUG DemoResources:56 - JSON RESPONSE -  CONTACT INFO = {"contact":{"cId":1,"cEmail":"info@cajadeahorros.com.pa","cPhone":"508-1099","cAddress":"Calle Thais de Pons","caddressLatitude":7.76617,"caddressLength":-80.2767,"cuserCreate":"GIAN","cuserUpdate":"GIAN","cdateCreate":"Oct 7, 2015 12:00:00 AM","cdateUpdate":"Oct 7, 2015 12:00:00 AM"},"social":[{"type":"Facebook","name":"Caja de Ahorros","url":"https://www.facebook.com/cajadeahorrospa"},{"type":"Twitter","name":"@CajadeAhorrosPA","url":"https://twitter.com/CajadeAhorrosPA"},{"type":"Instagram","name":"CajaDeAhorrosPA","url":"https://instagram.com/cajadeahorrospa/"},{"type":"Youtube","name":"Caja de Ahorro PA","url":"https://www.youtube.com/user/Cajadeahorrospa"}],"status":{"code":200,"status":"OK"}}
+2015-10-14 16:55:20 INFO  DemoResources:61 - Finalizado servicio de obtener información de contacto
+2015-10-14 16:55:25 INFO  DemoResources:95 - Iniciando servicio de obtener todos la Sitios
+2015-10-14 16:55:25 INFO  ServicesHandler:87 - Iniciando handler de Obtención de Sitios de Interes
+2015-10-14 16:55:25 INFO  ServicesHandler:102 - Finalizando handler de Obtención de Sitios de Interes
+2015-10-14 16:55:25 DEBUG DemoResources:102 - JSON RESPONSE -  SITES = {"sites":[{"eId":1,"eTitle":"Ley de Transparencia","eActive":false,"eHiperlink":"http://www.cajadeahorros.com.pa/Paginas/leytransparencia.aspx","euserCreate":"andry","euserUpdate":"pepe","edateCreate":"Oct 6, 2015 12:00:00 AM","edateUpdate":"Oct 8, 2015 12:00:00 AM"},{"eId":2,"eTitle":"Responsabilidad Civil","eActive":true,"eHiperlink":"http://www.cajadeahorros.com.pa/acercadenosotros/Paginas/responsabilidadsocial.aspx","euserCreate":"andry","euserUpdate":"pepe","edateCreate":"Oct 8, 2015 12:00:00 AM","edateUpdate":"Oct 8, 2015 12:00:00 AM"},{"eId":3,"eTitle":"Bienes adquiridos","eActive":true,"eHiperlink":"http://www.cajadeahorros.com.pa/Paginas/bienesadquiridos.aspx","euserCreate":"andry","euserUpdate":"andry","edateCreate":"Oct 8, 2015 12:00:00 AM","edateUpdate":"Oct 8, 2015 12:00:00 AM"},{"eId":4,"eTitle":"¿Qué es Caja Amiga?","eActive":true,"eHiperlink":"http://www.cajadeahorros.com.pa/servicioselectronicos/Paginas/queescajaamiga.aspx","euserCreate":"andry","euserUpdate":"andry","edateCreate":"Oct 8, 2015 12:00:00 AM","edateUpdate":"Oct 8, 2015 12:00:00 AM"},{"eId":5,"eTitle":"Loteria","eActive":true,"eHiperlink":"http://www.lnb.gob.pa","euserCreate":"andry","euserUpdate":"andry","edateCreate":"Oct 8, 2015 12:00:00 AM","edateUpdate":"Oct 8, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-10-14 16:55:25 INFO  DemoResources:107 - Finalizado servicio de obtener la Sitios
+2015-10-14 16:56:06 INFO  DemoResources:49 - Iniciando servicio de obtener información de contacto
+2015-10-14 16:56:06 INFO  ServicesHandler:48 - Iniciando handler de Obtención de Contacto
+2015-10-14 16:56:06 INFO  ServicesHandler:82 - Finalizando handler de Obtención de informacion de contacto
+2015-10-14 16:56:06 DEBUG DemoResources:56 - JSON RESPONSE -  CONTACT INFO = {"contact":{"cId":1,"cEmail":"info@cajadeahorros.com.pa","cPhone":"508-1099","cAddress":"Calle Thais de Pons","caddressLatitude":7.76617,"caddressLength":-80.2767,"cuserCreate":"GIAN","cuserUpdate":"GIAN","cdateCreate":"Oct 7, 2015 12:00:00 AM","cdateUpdate":"Oct 7, 2015 12:00:00 AM"},"social":[{"type":"Facebook","name":"Caja de Ahorros","url":"https://www.facebook.com/cajadeahorrospa"},{"type":"Twitter","name":"@CajadeAhorrosPA","url":"https://twitter.com/CajadeAhorrosPA"},{"type":"Instagram","name":"CajaDeAhorrosPA","url":"https://instagram.com/cajadeahorrospa/"},{"type":"Youtube","name":"Caja de Ahorro PA","url":"https://www.youtube.com/user/Cajadeahorrospa"}],"status":{"code":200,"status":"OK"}}
+2015-10-14 16:56:06 INFO  DemoResources:61 - Finalizado servicio de obtener información de contacto

@@ -30,9 +30,13 @@ import javax.validation.constraints.Size;
     @NamedQuery(name = "Contactos.findByCId", query = "SELECT c FROM Contactos c WHERE c.cId = :cId"),
     @NamedQuery(name = "Contactos.findByCEmail", query = "SELECT c FROM Contactos c WHERE c.cEmail = :cEmail"),
     @NamedQuery(name = "Contactos.findByCPhone", query = "SELECT c FROM Contactos c WHERE c.cPhone = :cPhone"),
+    @NamedQuery(name = "Contactos.findByCtypeHours", query = "SELECT c FROM Contactos c WHERE c.ctypeHours = :ctypeHours"),
+    @NamedQuery(name = "Contactos.findByChoursFrom", query = "SELECT c FROM Contactos c WHERE c.choursFrom = :choursFrom"),
+    @NamedQuery(name = "Contactos.findByChoursUntil", query = "SELECT c FROM Contactos c WHERE c.choursUntil = :choursUntil"),
     @NamedQuery(name = "Contactos.findByCAddress", query = "SELECT c FROM Contactos c WHERE c.cAddress = :cAddress"),
     @NamedQuery(name = "Contactos.findByCaddressLatitude", query = "SELECT c FROM Contactos c WHERE c.caddressLatitude = :caddressLatitude"),
     @NamedQuery(name = "Contactos.findByCaddressLength", query = "SELECT c FROM Contactos c WHERE c.caddressLength = :caddressLength"),
+    @NamedQuery(name = "Contactos.findByCSubject", query = "SELECT c FROM Contactos c WHERE c.cSubject = :cSubject"),
     @NamedQuery(name = "Contactos.findByCuserCreate", query = "SELECT c FROM Contactos c WHERE c.cuserCreate = :cuserCreate"),
     @NamedQuery(name = "Contactos.findByCuserUpdate", query = "SELECT c FROM Contactos c WHERE c.cuserUpdate = :cuserUpdate"),
     @NamedQuery(name = "Contactos.findByCdateCreate", query = "SELECT c FROM Contactos c WHERE c.cdateCreate = :cdateCreate"),
@@ -56,6 +60,21 @@ public class Contactos implements Serializable {
     private String cPhone;
     @Basic(optional = false)
     @NotNull
+    @Size(min = 1, max = 60)
+    @Column(name = "c_typeHours")
+    private String ctypeHours;
+    @Basic(optional = false)
+    @NotNull
+    @Size(min = 1, max = 50)
+    @Column(name = "c_hoursFrom")
+    private String choursFrom;
+    @Basic(optional = false)
+    @NotNull
+    @Size(min = 1, max = 50)
+    @Column(name = "c_hoursUntil")
+    private String choursUntil;
+    @Basic(optional = false)
+    @NotNull
     @Size(min = 1, max = 200)
     @Column(name = "c_address")
     private String cAddress;
@@ -67,6 +86,11 @@ public class Contactos implements Serializable {
     @NotNull
     @Column(name = "c_addressLength")
     private float caddressLength;
+    @Basic(optional = false)
+    @NotNull
+    @Size(min = 1, max = 150)
+    @Column(name = "c_subject")
+    private String cSubject;
     @Basic(optional = false)
     @NotNull
     @Size(min = 1, max = 20)
@@ -97,13 +121,17 @@ public class Contactos implements Serializable {
         this.cId = cId;
     }
 
-    public Contactos(Integer cId, String cEmail, String cPhone, String cAddress, float caddressLatitude, float caddressLength, String cuserCreate, String cuserUpdate, Date cdateCreate, Date cdateUpdate) {
+    public Contactos(Integer cId, String cEmail, String cPhone, String ctypeHours, String choursFrom, String choursUntil, String cAddress, float caddressLatitude, float caddressLength, String cSubject, String cuserCreate, String cuserUpdate, Date cdateCreate, Date cdateUpdate) {
         this.cId = cId;
         this.cEmail = cEmail;
         this.cPhone = cPhone;
+        this.ctypeHours = ctypeHours;
+        this.choursFrom = choursFrom;
+        this.choursUntil = choursUntil;
         this.cAddress = cAddress;
         this.caddressLatitude = caddressLatitude;
         this.caddressLength = caddressLength;
+        this.cSubject = cSubject;
         this.cuserCreate = cuserCreate;
         this.cuserUpdate = cuserUpdate;
         this.cdateCreate = cdateCreate;
@@ -134,6 +162,30 @@ public class Contactos implements Serializable {
         this.cPhone = cPhone;
     }
 
+    public String getCtypeHours() {
+        return ctypeHours;
+    }
+
+    public void setCtypeHours(String ctypeHours) {
+        this.ctypeHours = ctypeHours;
+    }
+
+    public String getChoursFrom() {
+        return choursFrom;
+    }
+
+    public void setChoursFrom(String choursFrom) {
+        this.choursFrom = choursFrom;
+    }
+
+    public String getChoursUntil() {
+        return choursUntil;
+    }
+
+    public void setChoursUntil(String choursUntil) {
+        this.choursUntil = choursUntil;
+    }
+
     public String getCAddress() {
         return cAddress;
     }
@@ -156,6 +208,14 @@ public class Contactos implements Serializable {
 
     public void setCaddressLength(float caddressLength) {
         this.caddressLength = caddressLength;
+    }
+
+    public String getCSubject() {
+        return cSubject;
+    }
+
+    public void setCSubject(String cSubject) {
+        this.cSubject = cSubject;
     }
 
     public String getCuserCreate() {

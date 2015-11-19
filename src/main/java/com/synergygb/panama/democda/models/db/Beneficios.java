@@ -26,9 +26,10 @@ import javax.validation.constraints.Size;
 @NamedQueries({
     @NamedQuery(name = "Beneficios.findAll", query = "SELECT b FROM Beneficios b"),
     @NamedQuery(name = "Beneficios.findByBId", query = "SELECT b FROM Beneficios b WHERE b.bId = :bId"),
+    @NamedQuery(name = "Beneficios.findByBText", query = "SELECT b FROM Beneficios b WHERE b.bText = :bText"),
     @NamedQuery(name = "Beneficios.findByBPicture", query = "SELECT b FROM Beneficios b WHERE b.bPicture = :bPicture"),
-    @NamedQuery(name = "Beneficios.findByBDetail", query = "SELECT b FROM Beneficios b WHERE b.bDetail = :bDetail"),
     @NamedQuery(name = "Beneficios.findByBpictureDetail", query = "SELECT b FROM Beneficios b WHERE b.bpictureDetail = :bpictureDetail"),
+    @NamedQuery(name = "Beneficios.findByBActive", query = "SELECT b FROM Beneficios b WHERE b.bActive = :bActive"),
     @NamedQuery(name = "Beneficios.findByBuserCreate", query = "SELECT b FROM Beneficios b WHERE b.buserCreate = :buserCreate"),
     @NamedQuery(name = "Beneficios.findByBuserUpdate", query = "SELECT b FROM Beneficios b WHERE b.buserUpdate = :buserUpdate"),
     @NamedQuery(name = "Beneficios.findByBdateCreate", query = "SELECT b FROM Beneficios b WHERE b.bdateCreate = :bdateCreate"),
@@ -42,25 +43,29 @@ public class Beneficios implements Serializable {
     private Integer bId;
     @Basic(optional = false)
     @NotNull
-    @Lob
-    @Size(min = 1, max = 65535)
+    @Size(min = 1, max = 200)
     @Column(name = "b_text")
     private String bText;
     @Basic(optional = false)
     @NotNull
-    @Size(min = 1, max = 50)
+    @Size(min = 1, max = 200)
     @Column(name = "b_picture")
     private String bPicture;
     @Basic(optional = false)
     @NotNull
-    @Size(min = 1, max = 150)
+    @Lob
+    @Size(min = 1, max = 65535)
     @Column(name = "b_detail")
     private String bDetail;
     @Basic(optional = false)
     @NotNull
-    @Size(min = 1, max = 50)
+    @Size(min = 1, max = 200)
     @Column(name = "b_pictureDetail")
     private String bpictureDetail;
+    @Basic(optional = false)
+    @NotNull
+    @Column(name = "b_active")
+    private boolean bActive;
     @Basic(optional = false)
     @NotNull
     @Size(min = 1, max = 20)
@@ -89,12 +94,13 @@ public class Beneficios implements Serializable {
         this.bId = bId;
     }
 
-    public Beneficios(Integer bId, String bText, String bPicture, String bDetail, String bpictureDetail, String buserCreate, String buserUpdate, Date bdateCreate, Date bdateUpdate) {
+    public Beneficios(Integer bId, String bText, String bPicture, String bDetail, String bpictureDetail, boolean bActive, String buserCreate, String buserUpdate, Date bdateCreate, Date bdateUpdate) {
         this.bId = bId;
         this.bText = bText;
         this.bPicture = bPicture;
         this.bDetail = bDetail;
         this.bpictureDetail = bpictureDetail;
+        this.bActive = bActive;
         this.buserCreate = buserCreate;
         this.buserUpdate = buserUpdate;
         this.bdateCreate = bdateCreate;
@@ -139,6 +145,14 @@ public class Beneficios implements Serializable {
 
     public void setBpictureDetail(String bpictureDetail) {
         this.bpictureDetail = bpictureDetail;
+    }
+
+    public boolean getBActive() {
+        return bActive;
+    }
+
+    public void setBActive(boolean bActive) {
+        this.bActive = bActive;
     }
 
     public String getBuserCreate() {

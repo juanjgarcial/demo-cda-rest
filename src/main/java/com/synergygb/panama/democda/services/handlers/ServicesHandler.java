@@ -64,15 +64,19 @@ public class ServicesHandler {
         
         ArrayList<Social> socialNetwors = new ArrayList<>();
         
-        for (RedesSociales red : response.getContact().getRedesSocialesCollection()) {
-            Social s = new Social();
-            s.setName(red.getRTitle());
-            s.setType(red.getRTipo().getTrDescription());
-            s.setUrl(red.getRLink());
-            socialNetwors.add(s);
+        if (response.getContact() != null) {
+            if (response.getContact().getRedesSocialesCollection() != null) {
+                for (RedesSociales red : response.getContact().getRedesSocialesCollection()) {
+                    Social s = new Social();
+                    s.setName(red.getRTitle());
+                    s.setType(red.getRTipo().getTrDescription());
+                    s.setUrl(red.getRLink());
+                    socialNetwors.add(s);
+                }
+            }
+            response.getContact().setRedesSocialesCollection(null);
         }
         
-        response.getContact().setRedesSocialesCollection(null);
         response.setSocial(socialNetwors);
         
         LOGGER.info("Finalizando handler de Obtención de informacion de contacto");

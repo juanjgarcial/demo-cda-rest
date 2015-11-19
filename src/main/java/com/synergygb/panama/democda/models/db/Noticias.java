@@ -27,6 +27,8 @@ import javax.validation.constraints.Size;
     @NamedQuery(name = "Noticias.findByNId", query = "SELECT n FROM Noticias n WHERE n.nId = :nId"),
     @NamedQuery(name = "Noticias.findByNText", query = "SELECT n FROM Noticias n WHERE n.nText = :nText"),
     @NamedQuery(name = "Noticias.findByNPicture", query = "SELECT n FROM Noticias n WHERE n.nPicture = :nPicture"),
+    @NamedQuery(name = "Noticias.findByNLink", query = "SELECT n FROM Noticias n WHERE n.nLink = :nLink"),
+    @NamedQuery(name = "Noticias.findByNActive", query = "SELECT n FROM Noticias n WHERE n.nActive = :nActive"),
     @NamedQuery(name = "Noticias.findByNuserCreate", query = "SELECT n FROM Noticias n WHERE n.nuserCreate = :nuserCreate"),
     @NamedQuery(name = "Noticias.findByNuserUpdate", query = "SELECT n FROM Noticias n WHERE n.nuserUpdate = :nuserUpdate"),
     @NamedQuery(name = "Noticias.findByNdateCreate", query = "SELECT n FROM Noticias n WHERE n.ndateCreate = :ndateCreate"),
@@ -40,7 +42,7 @@ public class Noticias implements Serializable {
     private Integer nId;
     @Basic(optional = false)
     @NotNull
-    @Size(min = 1, max = 200)
+    @Size(min = 1, max = 300)
     @Column(name = "n_text")
     private String nText;
     @Basic(optional = false)
@@ -48,6 +50,15 @@ public class Noticias implements Serializable {
     @Size(min = 1, max = 200)
     @Column(name = "n_picture")
     private String nPicture;
+    @Basic(optional = false)
+    @NotNull
+    @Size(min = 1, max = 200)
+    @Column(name = "n_link")
+    private String nLink;
+    @Basic(optional = false)
+    @NotNull
+    @Column(name = "n_active")
+    private boolean nActive;
     @Basic(optional = false)
     @NotNull
     @Size(min = 1, max = 20)
@@ -76,10 +87,12 @@ public class Noticias implements Serializable {
         this.nId = nId;
     }
 
-    public Noticias(Integer nId, String nText, String nPicture, String nuserCreate, String nuserUpdate, Date ndateCreate, Date ndateUpdate) {
+    public Noticias(Integer nId, String nText, String nPicture, String nLink, boolean nActive, String nuserCreate, String nuserUpdate, Date ndateCreate, Date ndateUpdate) {
         this.nId = nId;
         this.nText = nText;
         this.nPicture = nPicture;
+        this.nLink = nLink;
+        this.nActive = nActive;
         this.nuserCreate = nuserCreate;
         this.nuserUpdate = nuserUpdate;
         this.ndateCreate = ndateCreate;
@@ -108,6 +121,22 @@ public class Noticias implements Serializable {
 
     public void setNPicture(String nPicture) {
         this.nPicture = nPicture;
+    }
+
+    public String getNLink() {
+        return nLink;
+    }
+
+    public void setNLink(String nLink) {
+        this.nLink = nLink;
+    }
+
+    public boolean getNActive() {
+        return nActive;
+    }
+
+    public void setNActive(boolean nActive) {
+        this.nActive = nActive;
     }
 
     public String getNuserCreate() {

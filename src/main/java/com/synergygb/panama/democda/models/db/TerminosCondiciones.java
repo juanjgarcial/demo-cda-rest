@@ -25,6 +25,9 @@ import javax.validation.constraints.Size;
 @NamedQueries({
     @NamedQuery(name = "TerminosCondiciones.findAll", query = "SELECT t FROM TerminosCondiciones t"),
     @NamedQuery(name = "TerminosCondiciones.findByTId", query = "SELECT t FROM TerminosCondiciones t WHERE t.tId = :tId"),
+    @NamedQuery(name = "TerminosCondiciones.findByTNombre", query = "SELECT t FROM TerminosCondiciones t WHERE t.tNombre = :tNombre"),
+    @NamedQuery(name = "TerminosCondiciones.findByTLink", query = "SELECT t FROM TerminosCondiciones t WHERE t.tLink = :tLink"),
+    @NamedQuery(name = "TerminosCondiciones.findByTActive", query = "SELECT t FROM TerminosCondiciones t WHERE t.tActive = :tActive"),
     @NamedQuery(name = "TerminosCondiciones.findByTuserCreate", query = "SELECT t FROM TerminosCondiciones t WHERE t.tuserCreate = :tuserCreate"),
     @NamedQuery(name = "TerminosCondiciones.findByTuserUpdate", query = "SELECT t FROM TerminosCondiciones t WHERE t.tuserUpdate = :tuserUpdate"),
     @NamedQuery(name = "TerminosCondiciones.findByTdateCreate", query = "SELECT t FROM TerminosCondiciones t WHERE t.tdateCreate = :tdateCreate"),
@@ -36,6 +39,20 @@ public class TerminosCondiciones implements Serializable {
     @Basic(optional = false)
     @Column(name = "t_id")
     private Integer tId;
+    @Basic(optional = false)
+    @NotNull
+    @Size(min = 1, max = 50)
+    @Column(name = "t_nombre")
+    private String tNombre;
+    @Basic(optional = false)
+    @NotNull
+    @Size(min = 1, max = 200)
+    @Column(name = "t_link")
+    private String tLink;
+    @Basic(optional = false)
+    @NotNull
+    @Column(name = "t_active")
+    private boolean tActive;
     @Basic(optional = false)
     @NotNull
     @Size(min = 1, max = 20)
@@ -64,8 +81,11 @@ public class TerminosCondiciones implements Serializable {
         this.tId = tId;
     }
 
-    public TerminosCondiciones(Integer tId, String tuserCreate, String tuserUpdate, Date tdateCreate, Date tdateUpdate) {
+    public TerminosCondiciones(Integer tId, String tNombre, String tLink, boolean tActive, String tuserCreate, String tuserUpdate, Date tdateCreate, Date tdateUpdate) {
         this.tId = tId;
+        this.tNombre = tNombre;
+        this.tLink = tLink;
+        this.tActive = tActive;
         this.tuserCreate = tuserCreate;
         this.tuserUpdate = tuserUpdate;
         this.tdateCreate = tdateCreate;
@@ -78,6 +98,30 @@ public class TerminosCondiciones implements Serializable {
 
     public void setTId(Integer tId) {
         this.tId = tId;
+    }
+
+    public String getTNombre() {
+        return tNombre;
+    }
+
+    public void setTNombre(String tNombre) {
+        this.tNombre = tNombre;
+    }
+
+    public String getTLink() {
+        return tLink;
+    }
+
+    public void setTLink(String tLink) {
+        this.tLink = tLink;
+    }
+
+    public boolean getTActive() {
+        return tActive;
+    }
+
+    public void setTActive(boolean tActive) {
+        this.tActive = tActive;
     }
 
     public String getTuserCreate() {

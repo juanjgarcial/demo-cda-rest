@@ -46,7 +46,7 @@ public class Publicidad implements Serializable {
     private String pText;
     @Basic(optional = false)
     @NotNull
-    @Size(min = 1, max = 50)
+    @Size(min = 1, max = 200)
     @Column(name = "p_picture")
     private String pPicture;
     @Basic(optional = false)
