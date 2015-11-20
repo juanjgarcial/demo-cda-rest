@@ -17,7 +17,8 @@ import org.apache.log4j.Logger;
 public class DemoResources {
 
     private static final Logger LOGGER = Logger.getLogger(DemoResources.class);
-
+    private static final ServicesHandler handler = new ServicesHandler();
+    
     @Path("ads")
     @GET
     @Produces("application/json")
@@ -27,7 +28,6 @@ public class DemoResources {
         
         PropertiesConfiguration.initConfig();
         
-        ServicesHandler handler = new ServicesHandler();
         String jsonBody = handler.getAds();
                 
         LOGGER.debug("JSON RESPONSE -  ADS = " + jsonBody);
@@ -36,29 +36,6 @@ public class DemoResources {
         Response response = responseBuilder.build();
         
         LOGGER.info("Finalizado servicio de obtener la publicidad");
-        
-        return response;
-            
-    }
-    
-    @Path("contact-info")
-    @GET
-    @Produces("application/json")
-    public Response getContactInfo() {
-        
-        LOGGER.info("Iniciando servicio de obtener información de contacto");
-        
-        PropertiesConfiguration.initConfig();
-        
-        ServicesHandler handler = new ServicesHandler();
-        String jsonBody = handler.getContactInfo();
-                
-        LOGGER.debug("JSON RESPONSE -  CONTACT INFO = " + jsonBody);
-        
-        Response.ResponseBuilder responseBuilder = Response.ok(jsonBody, MediaType.APPLICATION_JSON);
-        Response response = responseBuilder.build();
-        
-        LOGGER.info("Finalizado servicio de obtener información de contacto");
         
         return response;
             
@@ -73,7 +50,6 @@ public class DemoResources {
         
         PropertiesConfiguration.initConfig();
         
-        ServicesHandler handler = new ServicesHandler();
         String jsonBody = handler.getNews();
                 
         LOGGER.debug("JSON RESPONSE -  NEWS = " + jsonBody);
@@ -82,29 +58,6 @@ public class DemoResources {
         Response response = responseBuilder.build();
         
         LOGGER.info("Finalizado servicio de obtener la Noticias");
-        
-        return response;
-            
-    }
-    
-    @Path("sites")
-    @GET
-    @Produces("application/json")
-    public Response getSites() {
-        
-        LOGGER.info("Iniciando servicio de obtener todos la Sitios");
-        
-        PropertiesConfiguration.initConfig();
-        
-        ServicesHandler handler = new ServicesHandler();
-        String jsonBody = handler.getSites();
-                
-        LOGGER.debug("JSON RESPONSE -  SITES = " + jsonBody);
-        
-        Response.ResponseBuilder responseBuilder = Response.ok(jsonBody, MediaType.APPLICATION_JSON);
-        Response response = responseBuilder.build();
-        
-        LOGGER.info("Finalizado servicio de obtener la Sitios");
         
         return response;
             
@@ -119,7 +72,6 @@ public class DemoResources {
         
         PropertiesConfiguration.initConfig();
         
-        ServicesHandler handler = new ServicesHandler();
         String jsonBody = handler.getBranches();
                 
         LOGGER.debug("JSON RESPONSE -  BRANCHES = " + jsonBody);
@@ -127,7 +79,95 @@ public class DemoResources {
         Response.ResponseBuilder responseBuilder = Response.ok(jsonBody, MediaType.APPLICATION_JSON);
         Response response = responseBuilder.build();
         
-        LOGGER.info("Finalizado servicio de obtener la SUrucsales");
+        LOGGER.info("Finalizado servicio de obtener la Sucursales");
+        
+        return response;
+            
+    }
+    
+    @Path("benefits")
+    @GET
+    @Produces("application/json")
+    public Response getBenefits() {
+        
+        LOGGER.info("Iniciando servicio de obtener todos las Beneficios");
+        
+        PropertiesConfiguration.initConfig();
+        
+        String jsonBody = handler.getBenefits();
+                
+        LOGGER.debug("JSON RESPONSE -  BENEFITS = " + jsonBody);
+        
+        Response.ResponseBuilder responseBuilder = Response.ok(jsonBody, MediaType.APPLICATION_JSON);
+        Response response = responseBuilder.build();
+        
+        LOGGER.info("Finalizado servicio de obtener la Beneficios");
+        
+        return response;
+            
+    }
+    
+    @Path("contact-info")
+    @GET
+    @Produces("application/json")
+    public Response getContactInfo() {
+        
+        LOGGER.info("Iniciando servicio de obtener información de contacto");
+        
+        PropertiesConfiguration.initConfig();
+        
+        String jsonBody = handler.getContactInfo();
+                
+        LOGGER.debug("JSON RESPONSE -  CONTACT INFO = " + jsonBody);
+        
+        Response.ResponseBuilder responseBuilder = Response.ok(jsonBody, MediaType.APPLICATION_JSON);
+        Response response = responseBuilder.build();
+        
+        LOGGER.info("Finalizado servicio de obtener información de contacto");
+        
+        return response;
+            
+    }
+    
+    @Path("sites")
+    @GET
+    @Produces("application/json")
+    public Response getSites() {
+        
+        LOGGER.info("Iniciando servicio de obtener todos la Sitios");
+        
+        PropertiesConfiguration.initConfig();
+        
+        String jsonBody = handler.getSites();
+                
+        LOGGER.debug("JSON RESPONSE -  SITES = " + jsonBody);
+        
+        Response.ResponseBuilder responseBuilder = Response.ok(jsonBody, MediaType.APPLICATION_JSON);
+        Response response = responseBuilder.build();
+        
+        LOGGER.info("Finalizado servicio de obtener la Sitios");
+        
+        return response;
+            
+    }
+    
+    @Path("faq")
+    @GET
+    @Produces("application/json")
+    public Response getFAQ() {
+        
+        LOGGER.info("Iniciando servicio de obtener todos las Preguntas Frecuentes");
+        
+        PropertiesConfiguration.initConfig();
+        
+        String jsonBody = handler.getFAQ();
+                
+        LOGGER.debug("JSON RESPONSE -  FAQ = " + jsonBody);
+        
+        Response.ResponseBuilder responseBuilder = Response.ok(jsonBody, MediaType.APPLICATION_JSON);
+        Response response = responseBuilder.build();
+        
+        LOGGER.info("Finalizado servicio de obtener las Preguntas Frecuentes");
         
         return response;
             

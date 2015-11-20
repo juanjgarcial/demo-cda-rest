@@ -2,9 +2,11 @@ package com.synergygb.panama.democda.services.controllers;
 
 import com.synergygb.panama.democda.config.GeneralParam;
 import com.synergygb.panama.democda.config.db.DBConnection;
+import com.synergygb.panama.democda.models.db.Beneficios;
 import com.synergygb.panama.democda.models.db.Contactos;
 import com.synergygb.panama.democda.models.db.EnlacesInteres;
 import com.synergygb.panama.democda.models.db.Noticias;
+import com.synergygb.panama.democda.models.db.PreguntasFrecuentes;
 import com.synergygb.panama.democda.models.db.Publicidad;
 import com.synergygb.panama.democda.models.db.Sucursales;
 import java.util.ArrayList;
@@ -35,6 +37,36 @@ public class ServicesController {
         return result;
     }
     
+    public ArrayList<Noticias> getNews() throws Exception {
+        
+        EntityManager em = getEntityManager();
+        Query q = em.createNamedQuery("Noticias.findAll");
+        ArrayList<Noticias> result = new ArrayList<>(Arrays.asList((Noticias[]) q.getResultList().toArray(new Noticias[0])));
+        em.close();
+        
+        return result;
+    }
+    
+    public ArrayList<Sucursales> getBranches() throws Exception {
+        
+        EntityManager em = getEntityManager();
+        Query q = em.createNamedQuery("Sucursales.findAll");
+        ArrayList<Sucursales> result = new ArrayList<>(Arrays.asList((Sucursales[]) q.getResultList().toArray(new Sucursales[0])));
+        em.close();
+        
+        return result;
+    }
+    
+    public ArrayList<Beneficios> getBenefits() throws Exception {
+        
+        EntityManager em = getEntityManager();
+        Query q = em.createNamedQuery("Beneficios.findAll");
+        ArrayList<Beneficios> result = new ArrayList<>(Arrays.asList((Beneficios[]) q.getResultList().toArray(new Beneficios[0])));
+        em.close();
+        
+        return result;
+    }
+    
     public ArrayList<Contactos> getContactInfo() throws Exception {
         
         EntityManager em = getEntityManager();
@@ -55,21 +87,11 @@ public class ServicesController {
         return result;
     }
     
-    public ArrayList<Noticias> getNews() throws Exception {
+    public ArrayList<PreguntasFrecuentes> getFAQ() throws Exception {
         
         EntityManager em = getEntityManager();
-        Query q = em.createNamedQuery("Noticias.findAll");
-        ArrayList<Noticias> result = new ArrayList<>(Arrays.asList((Noticias[]) q.getResultList().toArray(new Noticias[0])));
-        em.close();
-        
-        return result;
-    }
-    
-    public ArrayList<Sucursales> getBranches() throws Exception {
-        
-        EntityManager em = getEntityManager();
-        Query q = em.createNamedQuery("Sucursales.findAll");
-        ArrayList<Sucursales> result = new ArrayList<>(Arrays.asList((Sucursales[]) q.getResultList().toArray(new Sucursales[0])));
+        Query q = em.createNamedQuery("PreguntasFrecuentes.findAll");
+        ArrayList<PreguntasFrecuentes> result = new ArrayList<>(Arrays.asList((PreguntasFrecuentes[]) q.getResultList().toArray(new PreguntasFrecuentes[0])));
         em.close();
         
         return result;

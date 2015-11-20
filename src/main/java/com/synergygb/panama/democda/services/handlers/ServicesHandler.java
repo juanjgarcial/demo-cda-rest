@@ -1,8 +1,10 @@
 package com.synergygb.panama.democda.services.handlers;
 
+import com.synergygb.panama.democda.models.db.Beneficios;
 import com.synergygb.panama.democda.models.db.Contactos;
 import com.synergygb.panama.democda.models.db.EnlacesInteres;
 import com.synergygb.panama.democda.models.db.Noticias;
+import com.synergygb.panama.democda.models.db.PreguntasFrecuentes;
 import com.synergygb.panama.democda.models.db.Publicidad;
 import com.synergygb.panama.democda.models.db.RedesSociales;
 import com.synergygb.panama.democda.models.db.Sucursales;
@@ -12,8 +14,6 @@ import com.synergygb.panama.democda.services.models.Social;
 import com.synergygb.panama.democda.services.models.WebServiceStatus;
 import com.synergygb.panama.democda.utils.JSONUtility;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Date;
 import org.apache.log4j.Logger;
 
 /**
@@ -23,11 +23,11 @@ import org.apache.log4j.Logger;
 public class ServicesHandler {
 
     private static final Logger LOGGER = Logger.getLogger(ServicesHandler.class);
+    private static final ServicesController controller = new ServicesController();
     
     public String getAds() {
         LOGGER.info("Iniciando handler de Obtención de Publicidad");
         
-        ServicesController controller = new ServicesController();
         ArrayList<Publicidad> ads;
         ServiceResponse response = new ServiceResponse();
         
@@ -44,10 +44,66 @@ public class ServicesHandler {
         return JSONUtility.jsonFromObject(response);
     }
 
+    public String getNews() {
+        LOGGER.info("Iniciando handler de Obtención de Noticias");
+        
+        ArrayList<Noticias> news;
+        ServiceResponse response = new ServiceResponse();
+        
+        try {
+            news = controller.getNews();
+            response.setNews(news);
+            response.setStatus(WebServiceStatus.okResponse());
+        } catch (Exception ex) {
+            LOGGER.error("Error al La Noticia ", ex);
+            response.setStatus(WebServiceStatus.failResponseByDefault(ex));
+        }
+        
+        LOGGER.info("Finalizando handler de Obtención de Noticias");
+        return JSONUtility.jsonFromObject(response);
+    }
+    
+    public String getBranches() {
+        LOGGER.info("Iniciando handler de Obtención de Sucursales");
+        
+        ArrayList<Sucursales> branches;
+        ServiceResponse response = new ServiceResponse();
+        
+        try {
+            branches = controller.getBranches();
+            response.setBranches(branches);
+            response.setStatus(WebServiceStatus.okResponse());
+        } catch (Exception ex) {
+            LOGGER.error("Error al La Sucursales ", ex);
+            response.setStatus(WebServiceStatus.failResponseByDefault(ex));
+        }
+        
+        LOGGER.info("Finalizando handler de Obtención de Sucursales");
+        return JSONUtility.jsonFromObject(response);
+    }
+    
+    public String getBenefits() {
+        LOGGER.info("Iniciando handler de Obtención de Beneficios");
+        
+        ArrayList<Beneficios> benefits;
+        ServiceResponse response = new ServiceResponse();
+        
+        try {
+            benefits = controller.getBenefits();
+            response.setBenefits(benefits);
+            response.setStatus(WebServiceStatus.okResponse());
+        } catch (Exception ex) {
+            LOGGER.error("Error al obtener los Beneficios");
+            response.setStatus(WebServiceStatus.failResponseByDefault(ex));
+        }
+        
+        LOGGER.info("Finalizando handler de Obtención de Beneficios");
+        return JSONUtility.jsonFromObject(response);
+    }
+    
     public String getContactInfo() {
         LOGGER.info("Iniciando handler de Obtención de Contacto");
         
-        ServicesController controller = new ServicesController();
         ArrayList<Contactos> contactos;
         ServiceResponse response = new ServiceResponse();
         
@@ -82,11 +138,10 @@ public class ServicesHandler {
         LOGGER.info("Finalizando handler de Obtención de informacion de contacto");
         return JSONUtility.jsonFromObject(response);
     }
-
+    
     public String getSites() {
         LOGGER.info("Iniciando handler de Obtención de Sitios de Interes");
         
-        ServicesController controller = new ServicesController();
         ArrayList<EnlacesInteres> sites;
         ServiceResponse response = new ServiceResponse();
         
@@ -103,43 +158,22 @@ public class ServicesHandler {
         return JSONUtility.jsonFromObject(response);
     }
     
-    public String getNews() {
-        LOGGER.info("Iniciando handler de Obtención de Noticias");
+    public String getFAQ() {
+        LOGGER.info("Iniciando handler de Obtención de FAQ");
         
-        ServicesController controller = new ServicesController();
-        ArrayList<Noticias> news;
+        ArrayList<PreguntasFrecuentes> faq;
         ServiceResponse response = new ServiceResponse();
         
         try {
-            news = controller.getNews();
-            response.setNews(news);
+            faq = controller.getFAQ();
+            response.setFaq(faq);
             response.setStatus(WebServiceStatus.okResponse());
         } catch (Exception ex) {
-            LOGGER.error("Error al La Noticia ", ex);
+            LOGGER.error("Error al obtener los FAQ");
             response.setStatus(WebServiceStatus.failResponseByDefault(ex));
         }
         
-        LOGGER.info("Finalizando handler de Obtención de Noticias");
-        return JSONUtility.jsonFromObject(response);
-    }
-    
-    public String getBranches() {
-        LOGGER.info("Iniciando handler de Obtención de Sucursales");
-        
-        ServicesController controller = new ServicesController();
-        ArrayList<Sucursales> branches;
-        ServiceResponse response = new ServiceResponse();
-        
-        try {
-            branches = controller.getBranches();
-            response.setBranches(branches);
-            response.setStatus(WebServiceStatus.okResponse());
-        } catch (Exception ex) {
-            LOGGER.error("Error al La Sucursales ", ex);
-            response.setStatus(WebServiceStatus.failResponseByDefault(ex));
-        }
-        
-        LOGGER.info("Finalizando handler de Obtención de Sucursales");
+        LOGGER.info("Finalizando handler de Obtención de FAQ");
         return JSONUtility.jsonFromObject(response);
     }
 }

@@ -1,8 +1,10 @@
 package com.synergygb.panama.democda.services.models;
 
+import com.synergygb.panama.democda.models.db.Beneficios;
 import com.synergygb.panama.democda.models.db.Contactos;
 import com.synergygb.panama.democda.models.db.EnlacesInteres;
 import com.synergygb.panama.democda.models.db.Noticias;
+import com.synergygb.panama.democda.models.db.PreguntasFrecuentes;
 import com.synergygb.panama.democda.models.db.Publicidad;
 import com.synergygb.panama.democda.models.db.Sucursales;
 import java.io.Serializable;
@@ -20,20 +22,12 @@ public class ServiceResponse implements Serializable {
     private ArrayList<Noticias> news;
     private ArrayList<Sucursales> branches;
     private ArrayList<EnlacesInteres> sites;
+    private ArrayList<Beneficios> benefits;
+    private ArrayList<PreguntasFrecuentes> faq;
   
     private WebServiceStatus status;
 
     public ServiceResponse() {
-    }
-
-    public ServiceResponse(ArrayList<Publicidad> ads, Contactos contact, ArrayList<Social> social, ArrayList<Noticias> news, ArrayList<Sucursales> branches, ArrayList<EnlacesInteres> sites, WebServiceStatus status) {
-        this.ads = ads;
-        this.contact = contact;
-        this.social = social;
-        this.news = news;
-        this.branches = branches;
-        this.sites = sites;
-        this.status = status;
     }
 
     public ArrayList<Publicidad> getAds() {
@@ -92,8 +86,21 @@ public class ServiceResponse implements Serializable {
         this.social = social;
     }
 
-    @Override
-    public String toString() {
-        return "ServiceResponse{" + "ads=" + ads + ", contact=" + contact + ", social=" + social + ", news=" + news + ", branches=" + branches + ", sites=" + sites + ", status=" + status + '}';
+    public ArrayList<Beneficios> getBenefits() {
+        return benefits;
     }
+
+    public void setBenefits(ArrayList<Beneficios> benefits) {
+        this.benefits = benefits;
+    }
+
+    public ArrayList<PreguntasFrecuentes> getFaq() {
+        return faq;
+    }
+
+    public void setFaq(ArrayList<PreguntasFrecuentes> faq) {
+        this.faq = faq;
+    }
+
+    
 }
