@@ -8,6 +8,7 @@ import com.synergygb.panama.democda.models.db.PreguntasFrecuentes;
 import com.synergygb.panama.democda.models.db.Publicidad;
 import com.synergygb.panama.democda.models.db.RedesSociales;
 import com.synergygb.panama.democda.models.db.Sucursales;
+import com.synergygb.panama.democda.models.db.TerminosCondiciones;
 import com.synergygb.panama.democda.services.controllers.ServicesController;
 import com.synergygb.panama.democda.services.models.ServiceResponse;
 import com.synergygb.panama.democda.services.models.Social;
@@ -174,6 +175,25 @@ public class ServicesHandler {
         }
         
         LOGGER.info("Finalizando handler de Obtención de FAQ");
+        return JSONUtility.jsonFromObject(response);
+    }
+    
+    public String getTerms() {
+        LOGGER.info("Iniciando handler de Obtención de Terminos");
+        
+        ArrayList<TerminosCondiciones> terms;
+        ServiceResponse response = new ServiceResponse();
+        
+        try {
+            terms = controller.getTerms();
+            response.setTerms(terms);
+            response.setStatus(WebServiceStatus.okResponse());
+        } catch (Exception ex) {
+            LOGGER.error("Error al obtener los TERMS");
+            response.setStatus(WebServiceStatus.failResponseByDefault(ex));
+        }
+        
+        LOGGER.info("Finalizando handler de Obtención de Terminos");
         return JSONUtility.jsonFromObject(response);
     }
 }

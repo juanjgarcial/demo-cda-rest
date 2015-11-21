@@ -7,6 +7,7 @@ import com.synergygb.panama.democda.models.db.Noticias;
 import com.synergygb.panama.democda.models.db.PreguntasFrecuentes;
 import com.synergygb.panama.democda.models.db.Publicidad;
 import com.synergygb.panama.democda.models.db.Sucursales;
+import com.synergygb.panama.democda.models.db.TerminosCondiciones;
 import java.io.Serializable;
 import java.util.ArrayList;
 
@@ -24,6 +25,7 @@ public class ServiceResponse implements Serializable {
     private ArrayList<EnlacesInteres> sites;
     private ArrayList<Beneficios> benefits;
     private ArrayList<PreguntasFrecuentes> faq;
+    private ArrayList<TerminosCondiciones> terms;
   
     private WebServiceStatus status;
 
@@ -102,5 +104,12 @@ public class ServiceResponse implements Serializable {
         this.faq = faq;
     }
 
-    
+    public ArrayList<TerminosCondiciones> getTerms() {
+        return terms;
+    }
+
+    public void setTerms(ArrayList<TerminosCondiciones> terms) {
+        this.terms = terms;
+    }
+   
 }

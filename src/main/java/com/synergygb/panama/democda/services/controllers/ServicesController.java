@@ -9,6 +9,7 @@ import com.synergygb.panama.democda.models.db.Noticias;
 import com.synergygb.panama.democda.models.db.PreguntasFrecuentes;
 import com.synergygb.panama.democda.models.db.Publicidad;
 import com.synergygb.panama.democda.models.db.Sucursales;
+import com.synergygb.panama.democda.models.db.TerminosCondiciones;
 import java.util.ArrayList;
 import java.util.Arrays;
 import javax.persistence.EntityManager;
@@ -92,6 +93,16 @@ public class ServicesController {
         EntityManager em = getEntityManager();
         Query q = em.createNamedQuery("PreguntasFrecuentes.findAll");
         ArrayList<PreguntasFrecuentes> result = new ArrayList<>(Arrays.asList((PreguntasFrecuentes[]) q.getResultList().toArray(new PreguntasFrecuentes[0])));
+        em.close();
+        
+        return result;
+    }
+    
+    public ArrayList<TerminosCondiciones> getTerms() throws Exception {
+        
+        EntityManager em = getEntityManager();
+        Query q = em.createNamedQuery("TerminosCondiciones.findAll");
+        ArrayList<TerminosCondiciones> result = new ArrayList<>(Arrays.asList((TerminosCondiciones[]) q.getResultList().toArray(new TerminosCondiciones[0])));
         em.close();
         
         return result;

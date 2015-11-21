@@ -1,105 +1,19 @@
-2015-11-19 11:15:04 INFO  LogsPropertiesConfigurator:63 - Propiedades de Log4j configuradas con éxito
-2015-11-19 11:15:04 INFO  ServicesHandler:28 - Iniciando handler de Obtención de Publicidad
-2015-11-19 11:15:07 DEBUG DBConnection:45 - DB Connection: jdbc:mysql://localhost:8889/democda - USR: root PASS: root - DRIVER: com.mysql.jdbc.Driver
-2015-11-19 11:15:09 INFO  ServicesHandler:43 - Finalizando handler de Obtención de publicidad
-2015-11-19 11:15:09 DEBUG DemoResources:33 - JSON RESPONSE -  ADS = {"ads":[{"pId":1,"pText":"prueba","pPicture":"uploads/publicidad/publicidad_1.jpg","pActive":true,"puserCreate":"adminPrueba","puserUpdate":"adminPrueba","pdateCreate":"Nov 19, 2015 12:00:00 AM","pdateUpdate":"Nov 19, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
-2015-11-19 11:15:09 INFO  DemoResources:38 - Finalizado servicio de obtener la publicidad
-2015-11-19 11:15:23 INFO  DemoResources:49 - Iniciando servicio de obtener información de contacto
-2015-11-19 11:15:23 INFO  ServicesHandler:48 - Iniciando handler de Obtención de Contacto
-2015-11-19 11:15:32 INFO  DemoResources:72 - Iniciando servicio de obtener todos la Noticias
-2015-11-19 11:15:32 INFO  ServicesHandler:107 - Iniciando handler de Obtención de Noticias
-2015-11-19 11:15:32 INFO  ServicesHandler:122 - Finalizando handler de Obtención de Noticias
-2015-11-19 11:15:33 DEBUG DemoResources:79 - JSON RESPONSE -  NEWS = {"news":[{"nId":1,"nText":"esto es una noticia 1","nPicture":"uploads/noticias/noticias_1.jpg","nuserCreate":"adminPrueba","nuserUpdate":"adminPrueba","ndateCreate":"Nov 19, 2015 12:00:00 AM","ndateUpdate":"Nov 19, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
-2015-11-19 11:15:33 INFO  DemoResources:84 - Finalizado servicio de obtener la Noticias
-2015-11-19 11:16:01 INFO  DemoResources:118 - Iniciando servicio de obtener todos las Sucurales
-2015-11-19 11:16:01 INFO  ServicesHandler:127 - Iniciando handler de Obtención de Sucursales
-2015-11-19 11:16:01 ERROR ServicesHandler:138 - Error al La Sucursales 
-javax.persistence.PersistenceException: Exception [EclipseLink-3002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.ConversionException
-Exception Description: The object [10:30 AM], of class [class java.lang.String], from mapping [org.eclipse.persistence.mappings.DirectToFieldMapping[shoursFrom-->sucursales.s_hoursFrom]] with descriptor [RelationalDescriptor(com.synergygb.panama.democda.models.db.Sucursales --> [DatabaseTable(sucursales)])], could not be converted to [class java.sql.Timestamp].
-	at org.eclipse.persistence.internal.jpa.QueryImpl.getResultList(QueryImpl.java:480)
-	at com.synergygb.panama.democda.services.controllers.ServicesController.getBranches(ServicesController.java:72)
-	at com.synergygb.panama.democda.services.handlers.ServicesHandler.getBranches(ServicesHandler.java:134)
-	at com.synergygb.panama.democda.services.DemoResources.getBranches(DemoResources.java:123)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
-	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
-	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
-	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
-	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
-	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
-	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
-	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
-	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1542)
-	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1473)
-	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1419)
-	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1409)
-	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:409)
-	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:558)
-	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:733)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
-	at org.netbeans.modules.web.monitor.server.MonitorFilter.doFilter(MonitorFilter.java:393)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
-	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:208)
-	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:274)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
-	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
-	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
-	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
-	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: Exception [EclipseLink-3002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.ConversionException
-Exception Description: The object [10:30 AM], of class [class java.lang.String], from mapping [org.eclipse.persistence.mappings.DirectToFieldMapping[shoursFrom-->sucursales.s_hoursFrom]] with descriptor [RelationalDescriptor(com.synergygb.panama.democda.models.db.Sucursales --> [DatabaseTable(sucursales)])], could not be converted to [class java.sql.Timestamp].
-	at org.eclipse.persistence.exceptions.ConversionException.incorrectTimestampFormat(ConversionException.java:127)
-	at org.eclipse.persistence.internal.helper.Helper.timestampFromString(Helper.java:2035)
-	at org.eclipse.persistence.internal.helper.ConversionManager.convertObjectToUtilDate(ConversionManager.java:778)
-	at org.eclipse.persistence.internal.helper.ConversionManager.convertObject(ConversionManager.java:104)
-	at org.eclipse.persistence.internal.databaseaccess.DatasourcePlatform.convertObject(DatasourcePlatform.java:179)
-	at org.eclipse.persistence.mappings.converters.TypeConversionConverter.convertDataValueToObjectValue(TypeConversionConverter.java:122)
-	at org.eclipse.persistence.mappings.foundation.AbstractDirectMapping.getObjectValue(AbstractDirectMapping.java:614)
-	at org.eclipse.persistence.mappings.foundation.AbstractDirectMapping.valueFromRow(AbstractDirectMapping.java:1218)
-	at org.eclipse.persistence.mappings.foundation.AbstractDirectMapping.buildCloneFromRow(AbstractDirectMapping.java:203)
-	at org.eclipse.persistence.internal.descriptors.ObjectBuilder.buildAttributesIntoWorkingCopyClone(ObjectBuilder.java:1996)
-	at org.eclipse.persistence.internal.descriptors.ObjectBuilder.buildWorkingCopyCloneFromRow(ObjectBuilder.java:2249)
-	at org.eclipse.persistence.internal.descriptors.ObjectBuilder.buildObjectInUnitOfWork(ObjectBuilder.java:847)
-	at org.eclipse.persistence.internal.descriptors.ObjectBuilder.buildObject(ObjectBuilder.java:734)
-	at org.eclipse.persistence.internal.descriptors.ObjectBuilder.buildObject(ObjectBuilder.java:688)
-	at org.eclipse.persistence.queries.ObjectLevelReadQuery.buildObject(ObjectLevelReadQuery.java:795)
-	at org.eclipse.persistence.queries.ReadAllQuery.registerResultInUnitOfWork(ReadAllQuery.java:890)
-	at org.eclipse.persistence.queries.ReadAllQuery.executeObjectLevelReadQuery(ReadAllQuery.java:509)
-	at org.eclipse.persistence.queries.ObjectLevelReadQuery.executeDatabaseQuery(ObjectLevelReadQuery.java:1168)
-	at org.eclipse.persistence.queries.DatabaseQuery.execute(DatabaseQuery.java:899)
-	at org.eclipse.persistence.queries.ObjectLevelReadQuery.execute(ObjectLevelReadQuery.java:1127)
-	at org.eclipse.persistence.queries.ReadAllQuery.execute(ReadAllQuery.java:403)
-	at org.eclipse.persistence.queries.ObjectLevelReadQuery.executeInUnitOfWork(ObjectLevelReadQuery.java:1215)
-	at org.eclipse.persistence.internal.sessions.UnitOfWorkImpl.internalExecuteQuery(UnitOfWorkImpl.java:2896)
-	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1804)
-	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1786)
-	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1751)
-	at org.eclipse.persistence.internal.jpa.QueryImpl.executeReadQuery(QueryImpl.java:258)
-	at org.eclipse.persistence.internal.jpa.QueryImpl.getResultList(QueryImpl.java:469)
-	... 52 more
-2015-11-19 11:16:01 INFO  ServicesHandler:142 - Finalizando handler de Obtención de Sucursales
-2015-11-19 11:16:01 DEBUG DemoResources:125 - JSON RESPONSE -  BRANCHES = {"status":{"code":500,"status":"FAIL","msg":"Ha ocurrido un error en la aplicación","error":"Exception [EclipseLink-3002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.ConversionException\nException Description: The object [10:30 AM], of class [class java.lang.String], from mapping [org.eclipse.persistence.mappings.DirectToFieldMapping[shoursFrom--\u003esucursales.s_hoursFrom]] with descriptor [RelationalDescriptor(com.synergygb.panama.democda.models.db.Sucursales --\u003e [DatabaseTable(sucursales)])], could not be converted to [class java.sql.Timestamp]."}}
-2015-11-19 11:16:01 INFO  DemoResources:130 - Finalizado servicio de obtener la SUrucsales
+2015-11-20 14:31:20 INFO  LogsPropertiesConfigurator:63 - Propiedades de Log4j configuradas con éxito
+2015-11-20 14:31:20 INFO  ServicesHandler:162 - Iniciando handler de Obtención de FAQ
+2015-11-20 14:31:22 DEBUG DBConnection:45 - DB Connection: jdbc:mysql://localhost:8889/democda - USR: root PASS: root - DRIVER: com.mysql.jdbc.Driver
+2015-11-20 14:31:23 INFO  ServicesHandler:176 - Finalizando handler de Obtención de FAQ
+2015-11-20 14:31:24 DEBUG DemoResources:165 - JSON RESPONSE -  FAQ = {"faq":[{"pfId":1,"pfQuestion":"prueba","pfAnswer":"efdvv","pfActive":true,"pfuserCreate":"adminPrueba","pfuserUpdate":"adminPrueba","pfdateCreate":"Nov 19, 2015 12:00:00 AM","pfdateUpdate":"Nov 19, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-11-20 14:31:24 INFO  DemoResources:170 - Finalizado servicio de obtener las Preguntas Frecuentes
+2015-11-20 14:31:31 INFO  DemoResources:93 - Iniciando servicio de obtener todos las Beneficios
+2015-11-20 14:31:31 INFO  ServicesHandler:86 - Iniciando handler de Obtención de Beneficios
+2015-11-20 14:31:31 INFO  ServicesHandler:100 - Finalizando handler de Obtención de Beneficios
+2015-11-20 14:31:31 DEBUG DemoResources:99 - JSON RESPONSE -  BENEFITS = {"benefits":[{"bId":3,"bText":"bhbhb","bPicture":"uploads/beneficios/beneficio_3.png","bDetail":"dgdgd","bpictureDetail":"uploads/beneficios/beneficioDetalle_3.png","bActive":true,"buserCreate":"adminPrueba","buserUpdate":"adminPrueba","bdateCreate":"Nov 18, 2015 12:00:00 AM","bdateUpdate":"Nov 18, 2015 12:00:00 AM"},{"bId":4,"bText":"prueba23","bPicture":"uploads/beneficios/beneficio_4.jpg","bDetail":"fsfsd","bpictureDetail":"","bActive":true,"buserCreate":"adminPrueba","buserUpdate":"adminPrueba","bdateCreate":"Nov 19, 2015 12:00:00 AM","bdateUpdate":"Nov 19, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-11-20 14:31:31 INFO  DemoResources:104 - Finalizado servicio de obtener la Beneficios
+2015-11-20 14:31:45 INFO  DemoResources:115 - Iniciando servicio de obtener información de contacto
+2015-11-20 14:31:45 INFO  ServicesHandler:105 - Iniciando handler de Obtención de Contacto
+2015-11-20 14:37:14 INFO  LogsPropertiesConfigurator:63 - Propiedades de Log4j configuradas con éxito
+2015-11-20 14:37:14 INFO  ServicesHandler:182 - Iniciando handler de Obtención de Terminos
+2015-11-20 14:37:15 DEBUG DBConnection:45 - DB Connection: jdbc:mysql://localhost:8889/democda - USR: root PASS: root - DRIVER: com.mysql.jdbc.Driver
+2015-11-20 14:37:16 INFO  ServicesHandler:196 - Finalizando handler de Obtención de Terminos
+2015-11-20 14:37:16 DEBUG DemoResources:187 - JSON RESPONSE -  TERMS = {"terms":[{"tId":1,"tNombre":"prueba1","tLink":"http://www.prueba.com","tActive":true,"tuserCreate":"adminPrueba","tuserUpdate":"adminPrueba","tdateCreate":"Nov 19, 2015 12:00:00 AM","tdateUpdate":"Nov 19, 2015 12:00:00 AM"}],"status":{"code":200,"status":"OK"}}
+2015-11-20 14:37:16 INFO  DemoResources:192 - Finalizado servicio de obtener los Terminos

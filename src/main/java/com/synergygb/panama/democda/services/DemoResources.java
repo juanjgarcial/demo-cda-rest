@@ -172,4 +172,26 @@ public class DemoResources {
         return response;
             
     }
+    
+    @Path("terms")
+    @GET
+    @Produces("application/json")
+    public Response getTerms() {
+        
+        LOGGER.info("Iniciando servicio de obtener los Terminos");
+        
+        PropertiesConfiguration.initConfig();
+        
+        String jsonBody = handler.getTerms();
+                
+        LOGGER.debug("JSON RESPONSE -  TERMS = " + jsonBody);
+        
+        Response.ResponseBuilder responseBuilder = Response.ok(jsonBody, MediaType.APPLICATION_JSON);
+        Response response = responseBuilder.build();
+        
+        LOGGER.info("Finalizado servicio de obtener los Terminos");
+        
+        return response;
+            
+    }
 }

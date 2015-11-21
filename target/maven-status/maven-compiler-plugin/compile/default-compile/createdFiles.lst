@@ -7,12 +7,14 @@ com/synergygb/panama/democda/utils/JSONUtility.class
 com/synergygb/panama/democda/config/properties/IntegrationProperties.class
 com/synergygb/panama/democda/services/models/Social.class
 com/synergygb/panama/democda/services/handlers/ServicesHandler.class
+com/synergygb/panama/democda/models/db/TipoUsuarios_.class
 com/synergygb/panama/democda/models/db/TipoRedes_.class
 com/synergygb/panama/democda/models/db/PreguntasFrecuentes_.class
 com/synergygb/panama/democda/services/InvalidateConfigurationResource.class
 com/synergygb/panama/democda/models/db/Beneficios.class
 com/synergygb/panama/democda/models/db/GeneralPublicidad.class
 com/synergygb/panama/democda/services/DemoResources.class
+com/synergygb/panama/democda/models/db/TipoUsuarios.class
 com/synergygb/panama/democda/models/db/Sucursales.class
 com/synergygb/panama/democda/models/db/TipoRedes.class
 com/synergygb/panama/democda/models/db/Usuarios_.class
