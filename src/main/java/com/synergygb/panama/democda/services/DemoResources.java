@@ -19,6 +19,8 @@ public class DemoResources {
     private static final Logger LOGGER = Logger.getLogger(DemoResources.class);
     private static final ServicesHandler handler = new ServicesHandler();
     
+    private static long sleepTime = 0;
+    
     @Path("ads")
     @GET
     @Produces("application/json")
@@ -46,6 +48,11 @@ public class DemoResources {
     @Produces("application/json")
     public Response getNews() {
         
+        try {
+            Thread.sleep(sleepTime);
+        } catch (InterruptedException ex) {
+        }
+        
         LOGGER.info("Iniciando servicio de obtener todos la Noticias");
         
         PropertiesConfiguration.initConfig();
@@ -67,6 +74,11 @@ public class DemoResources {
     @GET
     @Produces("application/json")
     public Response getBranches() {
+        
+        try {
+            Thread.sleep(sleepTime);
+        } catch (InterruptedException ex) {
+        }
         
         LOGGER.info("Iniciando servicio de obtener todos las Sucurales");
         
@@ -90,6 +102,11 @@ public class DemoResources {
     @Produces("application/json")
     public Response getBenefits() {
         
+        try {
+            Thread.sleep(sleepTime);
+        } catch (InterruptedException ex) {
+        }
+        
         LOGGER.info("Iniciando servicio de obtener todos las Beneficios");
         
         PropertiesConfiguration.initConfig();
@@ -111,6 +128,11 @@ public class DemoResources {
     @GET
     @Produces("application/json")
     public Response getContactInfo() {
+        
+        try {
+            Thread.sleep(sleepTime);
+        } catch (InterruptedException ex) {
+        }
         
         LOGGER.info("Iniciando servicio de obtener información de contacto");
         
@@ -134,6 +156,11 @@ public class DemoResources {
     @Produces("application/json")
     public Response getSites() {
         
+        try {
+            Thread.sleep(sleepTime);
+        } catch (InterruptedException ex) {
+        }
+        
         LOGGER.info("Iniciando servicio de obtener todos la Sitios");
         
         PropertiesConfiguration.initConfig();
@@ -156,6 +183,11 @@ public class DemoResources {
     @Produces("application/json")
     public Response getFAQ() {
         
+        try {
+            Thread.sleep(sleepTime);
+        } catch (InterruptedException ex) {
+        }
+        
         LOGGER.info("Iniciando servicio de obtener todos las Preguntas Frecuentes");
         
         PropertiesConfiguration.initConfig();
@@ -177,6 +209,11 @@ public class DemoResources {
     @GET
     @Produces("application/json")
     public Response getTerms() {
+        
+        try {
+            Thread.sleep(sleepTime);
+        } catch (InterruptedException ex) {
+        }
         
         LOGGER.info("Iniciando servicio de obtener los Terminos");
         
